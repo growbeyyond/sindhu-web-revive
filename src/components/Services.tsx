@@ -4,34 +4,34 @@ import { Stethoscope, Heart, Shield, Users, Activity, Microscope } from 'lucide-
 
 const services = [
   {
-    icon: Stethoscope,
-    title: "Medical Oncology",
-    description: "Comprehensive medical treatment for various types of cancer using chemotherapy, immunotherapy, and targeted therapy."
-  },
-  {
     icon: Heart,
-    title: "Personalized Care",
-    description: "Individual treatment plans tailored to each patient's specific cancer type, stage, and personal health profile."
-  },
-  {
-    icon: Shield,
-    title: "Preventive Oncology",
-    description: "Cancer screening, genetic counseling, and preventive measures to reduce cancer risk and enable early detection."
-  },
-  {
-    icon: Users,
-    title: "Patient Support",
-    description: "Comprehensive support services including counseling, nutrition guidance, and emotional support for patients and families."
+    title: "Personalized Cancer Treatment Plans",
+    description: "Tailored treatment strategies based on your specific cancer type, stage, and overall health for the best outcomes."
   },
   {
     icon: Activity,
-    title: "Advanced Diagnostics",
-    description: "State-of-the-art diagnostic services including imaging, biopsies, and molecular testing for accurate cancer staging."
+    title: "Chemotherapy & Targeted Therapy",
+    description: "Advanced drug-based treatments designed to attack cancer cells while minimizing side effects."
+  },
+  {
+    icon: Shield,
+    title: "Immunotherapy & Advanced Oncology Treatments",
+    description: "Harnessing the power of your immune system and the latest innovations to fight cancer effectively."
   },
   {
     icon: Microscope,
-    title: "Research & Innovation",
-    description: "Access to cutting-edge clinical trials and innovative treatment options for better patient outcomes."
+    title: "Cancer Screening & Early Detection",
+    description: "Early diagnosis through advanced screening methods increases treatment success and survival rates."
+  },
+  {
+    icon: Users,
+    title: "Palliative & Supportive Care for Cancer Patients",
+    description: "Comprehensive pain management and emotional support to improve quality of life during treatment."
+  },
+  {
+    icon: Stethoscope,
+    title: "Post-Treatment Rehabilitation & Wellness",
+    description: "Guided recovery programs, including nutrition, physiotherapy, and mental health support for holistic healing."
   }
 ];
 
@@ -41,11 +41,11 @@ export const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Comprehensive Oncology Services
+            Comprehensive Cancer Treatment & Care in Hyderabad
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Providing world-class cancer care with advanced treatment options, 
-            cutting-edge technology, and compassionate support throughout your journey.
+            Expert oncology care with personalized treatment strategies, advanced drug therapies, 
+            and comprehensive support throughout your cancer treatment journey.
           </p>
         </div>
 

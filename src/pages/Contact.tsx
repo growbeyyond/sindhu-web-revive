@@ -32,7 +32,7 @@ Appointment Type: ${formData.appointmentType}
 Message: ${formData.message}
     `.trim();
 
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/918639351695?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 
     toast({
@@ -61,25 +61,11 @@ Message: ${formData.message}
 
   const clinicLocations = [
     {
-      name: "Apollo Cancer Centre",
-      address: "Jubilee Hills, Road No. 36, Hyderabad, Telangana 500033",
-      phone: "+91 40 2355 1066",
-      timings: "Mon-Sat: 9:00 AM - 6:00 PM",
+      name: "Dr. Sindhu Pericherla Oncology Clinic",
+      address: "Hyderabad, Telangana, India",
+      phone: "+91 8639351695",
+      timings: "Mon-Sat: 10:00 AM - 5:00 PM",
       type: "Primary Clinic"
-    },
-    {
-      name: "Continental Hospitals",
-      address: "IT Park Road, Nanakramguda, Hyderabad, Telangana 500019",
-      phone: "+91 40 6721 4000",
-      timings: "Mon-Fri: 10:00 AM - 4:00 PM",
-      type: "Consulting"
-    },
-    {
-      name: "KIMS Hospitals",
-      address: "Minister Road, Secunderabad, Telangana 500003",
-      phone: "+91 40 4455 7777",
-      timings: "Thu-Sat: 2:00 PM - 6:00 PM",
-      type: "Consulting"
     }
   ];
 
@@ -101,7 +87,7 @@ Message: ${formData.message}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg"
-                onClick={() => window.open('https://wa.me/919876543210?text=Hi, I would like to book an urgent consultation', '_blank')}
+                onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book an urgent consultation', '_blank')}
                 className="bg-medical-green hover:bg-medical-teal transition-colors"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
@@ -222,21 +208,21 @@ Message: ${formData.message}
                     <Phone className="h-5 w-5 text-medical-green" />
                     <div>
                       <p className="font-semibold text-foreground">Primary Number</p>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 8639351695</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-medical-blue" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <p className="text-muted-foreground">dr.sindhu@example.com</p>
+                      <p className="text-muted-foreground">drpsindhu.onco@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MessageCircle className="h-5 w-5 text-medical-green" />
                     <div>
                       <p className="font-semibold text-foreground">WhatsApp</p>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 8639351695</p>
                     </div>
                   </div>
                 </CardContent>
@@ -252,7 +238,7 @@ Message: ${formData.message}
                 <CardContent>
                   <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                     <p className="font-semibold text-red-800 mb-2">24/7 Emergency Helpline</p>
-                    <p className="text-red-700">+91 98765 43211</p>
+                    <p className="text-red-700">+91 8639351695</p>
                     <p className="text-sm text-red-600 mt-2">
                       For urgent medical emergencies and critical patient care
                     </p>
@@ -309,7 +295,7 @@ Message: ${formData.message}
                     variant="outline" 
                     size="sm" 
                     className="w-full mt-4"
-                    onClick={() => window.open(`https://wa.me/919876543210?text=Hi, I would like to book an appointment at ${clinic.name}`, '_blank')}
+                    onClick={() => window.open(`https://wa.me/918639351695?text=Hi, I would like to book an appointment at ${clinic.name}`, '_blank')}
                   >
                     <Calendar className="mr-2 h-4 w-4" />
                     Book Here
@@ -346,7 +332,7 @@ Message: ${formData.message}
                 View on Google Maps
               </Button>
               <Button 
-                onClick={() => window.open('https://wa.me/919876543210?text=Hi, I need directions to your clinic', '_blank')}
+                onClick={() => window.open('https://wa.me/918639351695?text=Hi, I need directions to your clinic', '_blank')}
                 className="bg-medical-green hover:bg-medical-teal"
               >
                 <Car className="mr-2 h-4 w-4" />

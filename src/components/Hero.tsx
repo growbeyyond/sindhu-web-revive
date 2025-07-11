@@ -11,12 +11,12 @@ export const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Expert Oncology Care with
-                <span className="text-blue-600 block">Compassion</span>
+                Expert Oncology Care with Dr. Sindhu – 
+                <span className="text-blue-600 block">Your Path to Recovery</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-                Dr. Sindhu Peri Cherla brings over 15 years of specialized experience in oncology, 
-                providing comprehensive cancer care with advanced treatment options and personalized attention.
+                Dr. Sindhu Pericherla, a leading oncologist in Hyderabad, provides advanced cancer treatment, 
+                early detection, and compassionate care. Your journey to recovery starts here.
               </p>
             </div>
 
@@ -26,22 +26,22 @@ export const Hero = () => {
                 <div className="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mx-auto mb-2">
                   <Award className="h-6 w-6 text-blue-600" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">15+</div>
-                <div className="text-sm text-gray-600">Years Experience</div>
+                <div className="text-2xl font-bold text-gray-900">10K+</div>
+                <div className="text-sm text-gray-600">Patients Recover</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mx-auto mb-2">
                   <Users className="h-6 w-6 text-blue-600" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">2000+</div>
-                <div className="text-sm text-gray-600">Patients Treated</div>
+                <div className="text-2xl font-bold text-gray-900">Years</div>
+                <div className="text-sm text-gray-600">of Experience</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg mx-auto mb-2">
                   <Calendar className="h-6 w-6 text-blue-600" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">24/7</div>
-                <div className="text-sm text-gray-600">Support Available</div>
+                <div className="text-2xl font-bold text-gray-900">Successful</div>
+                <div className="text-sm text-gray-600">Cancer Treatments</div>
               </div>
             </div>
 

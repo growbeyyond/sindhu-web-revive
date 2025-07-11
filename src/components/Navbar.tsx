@@ -19,7 +19,7 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold text-medical-blue hover:text-medical-teal transition-colors">
-              Dr. Sindhu Peri Cherla
+              Dr. Sindhu Pericherla
             </Link>
           </div>
 
@@ -83,10 +83,10 @@ export const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center text-sm text-muted-foreground">
               <Phone className="h-4 w-4 mr-1" />
-              <span>+91 98765 43210</span>
+              <span>+91 8639351695</span>
             </div>
             <Button 
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi, I would like to book an appointment with Dr. Sindhu Peri Cherla', '_blank')}
+              onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book an appointment with Dr. Sindhu Pericherla', '_blank')}
               className="bg-medical-green hover:bg-medical-teal transition-colors"
             >
               <MessageCircle className="h-4 w-4 mr-2" />
@@ -158,7 +158,7 @@ export const Navbar = () => {
             <div className="pt-4 pb-3 border-t border-border">
               <Button 
                 onClick={() => {
-                  window.open('https://wa.me/919876543210?text=Hi, I would like to book an appointment with Dr. Sindhu Peri Cherla', '_blank');
+                  window.open('https://wa.me/918639351695?text=Hi, I would like to book an appointment with Dr. Sindhu Pericherla', '_blank');
                   setIsOpen(false);
                 }}
                 className="w-full bg-medical-green hover:bg-medical-teal transition-colors"
