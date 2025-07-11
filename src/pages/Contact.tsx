@@ -61,8 +61,8 @@ Message: ${formData.message}
 
   const clinicLocations = [
     {
-      name: "Dr. Sindhu Pericherla Oncology Clinic",
-      address: "Hyderabad, Telangana, India",
+      name: "Apollo Hospitals - Hyderabad",
+      address: "Plot No. 251, Rd Number 3, KPHB Colony, Kukatpally, Hyderabad, Telangana 500072",
       phone: "+91 8639351695",
       timings: "Mon-Sat: 10:00 AM - 5:00 PM",
       type: "Primary Clinic"
@@ -313,7 +313,7 @@ Message: ${formData.message}
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-foreground mb-4">Find Us</h2>
             <p className="text-muted-foreground">
-              Our primary location at Apollo Cancer Centre, Jubilee Hills
+              Our location at Apollo Hospitals, Kukatpally, Hyderabad
             </p>
           </div>
           
@@ -326,7 +326,7 @@ Message: ${formData.message}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 variant="outline"
-                onClick={() => window.open('https://maps.google.com/?q=Apollo Cancer Centre Jubilee Hills Hyderabad', '_blank')}
+                onClick={() => window.open('https://maps.google.com/?q=Apollo Hospitals Kukatpally Hyderabad', '_blank')}
               >
                 <MapPin className="mr-2 h-4 w-4" />
                 View on Google Maps
