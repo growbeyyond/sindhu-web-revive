@@ -84,7 +84,7 @@ const Services = () => {
             </p>
             <Button 
               size="lg" 
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi, I would like to know more about your cancer care services', '_blank')}
+              onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to know more about your cancer care services', '_blank')}
               className="bg-medical-green hover:bg-medical-teal transition-colors"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
@@ -213,7 +213,7 @@ const Services = () => {
             <Button 
               size="lg" 
               variant="secondary"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi, I would like to book an appointment for cancer consultation', '_blank')}
+              onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book an appointment for cancer consultation', '_blank')}
               className="bg-white text-medical-blue hover:bg-gray-100"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
@@ -224,7 +224,7 @@ const Services = () => {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-medical-blue"
             >
-              Call +91 98765 43210
+              Call +91 8639351695
             </Button>
           </div>
         </div>

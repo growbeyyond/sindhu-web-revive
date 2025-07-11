@@ -6,6 +6,8 @@ import { About } from "@/components/About";
 import { Testimonials } from "@/components/Testimonials";
 import { WorkingHours } from "@/components/WorkingHours";
 import { Contact } from "@/components/Contact";
+import { FAQ } from "@/components/FAQ";
+import { CTA } from "@/components/CTA";
 
 const Index = () => {
   return (
@@ -16,7 +18,9 @@ const Index = () => {
       <About />
       <WorkingHours />
       <Testimonials />
+      <FAQ />
       <Contact />
+      <CTA />
     </div>
   );
 };

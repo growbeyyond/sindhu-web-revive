@@ -7,13 +7,13 @@ import { MapPin, Phone, Mail, Clock, Calendar } from 'lucide-react';
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-blue-50 to-white">
+    <section id="contact" className="py-20 bg-gradient-to-br from-medical-accent to-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Get in Touch
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Ready to take the next step in your healthcare journey? Contact us today to schedule 
             a consultation or learn more about our services.
           </p>
@@ -24,48 +24,48 @@ export const Contact = () => {
           <div className="space-y-6">
             <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="h-6 w-6 text-blue-600" />
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-lg">Visit Our Clinic</CardTitle>
               </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-gray-600">
-                  123 Medical Center Drive<br />
-                  Healthcare District<br />
-                  Hyderabad, Telangana 500001
-                </CardDescription>
+               <CardContent className="text-center">
+                <div className="text-gray-600">
+                  American Oncology Institute<br />
+                  Near Hi-Tech City<br />
+                  Hyderabad, Telangana 500081
+                </div>
               </CardContent>
             </Card>
 
             <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="h-6 w-6 text-blue-600" />
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-lg">Call Us</CardTitle>
               </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-gray-600">
-                  <div className="font-semibold text-gray-900">+91 98765 43210</div>
-                  <div className="text-sm">Emergency: +91 98765 43211</div>
-                </CardDescription>
+               <CardContent className="text-center">
+                <div className="text-gray-600">
+                  <div className="font-semibold text-gray-900">+91 8639351695</div>
+                  <div className="text-sm">For appointments & consultations</div>
+                </div>
               </CardContent>
             </Card>
 
             <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="h-6 w-6 text-blue-600" />
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-lg">Consultation Hours</CardTitle>
               </CardHeader>
-              <CardContent className="text-center">
-                <CardDescription className="text-gray-600">
-                  <div>Mon - Fri: 9:00 AM - 6:00 PM</div>
-                  <div>Saturday: 9:00 AM - 2:00 PM</div>
-                  <div>Sunday: Emergency Only</div>
-                </CardDescription>
+               <CardContent className="text-center">
+                <div className="text-gray-600">
+                  <div>Mon - Sat: 10:00 AM - 5:00 PM</div>
+                  <div>Sunday: By Appointment</div>
+                  <div className="text-xs text-primary mt-2">Emergency consultations available</div>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -149,7 +149,11 @@ export const Contact = () => {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Button type="submit" className="flex-1 bg-blue-600 hover:bg-blue-700">
+                    <Button 
+                      type="submit" 
+                      onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book a consultation', '_blank')}
+                      className="flex-1 bg-primary hover:bg-primary/90"
+                    >
                       <Calendar className="mr-2 h-4 w-4" />
                       Book Consultation
                     </Button>
