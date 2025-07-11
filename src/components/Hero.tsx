@@ -61,8 +61,8 @@ export const Hero = () => {
           <div className="relative animate-fade-in">
             <div className="relative">
               <img
-                src={`https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=600&fit=crop&crop=faces`}
-                alt="Dr. Sindhu Peri Cherla"
+                src="/src/assets/dr-sindhu-photo.jpg"
+                alt="Dr. Sindhu Pericherla"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto object-cover h-96"
               />
               <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-4 shadow-lg">

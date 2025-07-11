@@ -8,65 +8,64 @@ const About = () => {
   const qualifications = [
     {
       degree: "MBBS",
-      institution: "Christian Medical College, Vellore",
-      year: "2008",
-      description: "Bachelor of Medicine and Bachelor of Surgery with distinction"
+      institution: "Mamata Medical College, Telangana",
+      year: "2014",
+      description: "Bachelor of Medicine and Bachelor of Surgery"
     },
     {
       degree: "MD - Internal Medicine",
-      institution: "All India Institute of Medical Sciences, Delhi",
-      year: "2012",
-      description: "Specialization in Internal Medicine with research in oncology"
+      institution: "Kasturba Medical College, Manipal, Karnataka",
+      year: "2018",
+      description: "Specialization in Internal Medicine"
     },
     {
       degree: "DM - Medical Oncology",
-      institution: "Tata Memorial Centre, Mumbai",
-      year: "2015",
+      institution: "Sri Venkateswara Institute of Medical Sciences, Tirupati",
+      year: "2022",
       description: "Super-specialization in Medical Oncology and Cancer Research"
-    },
-    {
-      degree: "Fellowship in Precision Oncology",
-      institution: "Memorial Sloan Kettering Cancer Center, USA",
-      year: "2017",
-      description: "Advanced fellowship in precision medicine and genomic oncology"
     }
   ];
 
   const achievements = [
-    "15+ years of experience in oncology",
-    "Published 50+ research papers in international journals",
-    "Treated over 3,000 cancer patients successfully",
-    "Pioneer in precision medicine in South India",
-    "Recipient of Excellence in Cancer Care Award 2023",
-    "Active member of ASCO and ESMO"
+    "7+ years of experience in oncology",
+    "Expert in diagnosis, management and treatment planning for all solid and hematologic malignancies",
+    "Expertise in personalized cancer therapies - chemotherapy, immunotherapy, targeted therapy",
+    "Published several case studies and articles in renowned medical journals",
+    "Gold Medal during MBBS in Pathology",
+    "Active member of ASCO, ESMO, ISMPO and ICON"
   ];
 
   const expertise = [
     "Breast Cancer",
+    "Gynecologic Cancers - Ovary, Cervix, Endometrium",
     "Lung Cancer",
-    "Gastrointestinal Cancers",
-    "Gynecologic Oncology",
-    "Hematologic Malignancies",
-    "Precision Medicine",
-    "Immunotherapy",
-    "Clinical Research"
+    "Gastrointestinal Cancer - Esophagus, Stomach, Colorectum",
+    "Genitourinary Cancer - Prostate, Kidney and Bladder",
+    "Lymphoma",
+    "Multiple Myeloma",
+    "Clinical Trials"
   ];
 
   const affiliations = [
     {
-      name: "Apollo Cancer Centre",
-      role: "Senior Consultant Oncologist",
-      period: "2018 - Present"
+      name: "American Oncology Institute",
+      role: "Medical Oncologist",
+      period: "Present"
     },
     {
-      name: "Indian Medical Association",
-      role: "Executive Committee Member",
-      period: "2020 - Present"
+      name: "American Society of Clinical Oncology (ASCO)",
+      role: "Member",
+      period: "Present"
     },
     {
-      name: "Association of Physicians of India",
-      role: "Fellow",
-      period: "2015 - Present"
+      name: "European Society of Medical Oncology (ESMO)",
+      role: "Member", 
+      period: "Present"
+    },
+    {
+      name: "Indian Society of Medical and Pediatric Oncology (ISMPO)",
+      role: "Member",
+      period: "Present"
     }
   ];
 
@@ -80,7 +79,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Dr. Sindhu Peri Cherla
+                Dr. Sindhu Pericherla
               </h1>
               <div className="space-y-2 mb-6">
                 <Badge variant="secondary" className="mr-2">MBBS, MD, DM</Badge>
@@ -88,13 +87,14 @@ const About = () => {
                 <Badge variant="outline">Precision Medicine Expert</Badge>
               </div>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                A passionate oncologist dedicated to providing comprehensive, evidence-based cancer care 
-                with a focus on precision medicine and patient-centered treatment approaches.
+                Dr. Sindhu is one of the leading Medical Oncologists in Hyderabad, with over seven years of experience 
+                in oncology. She is an expert in diagnosis, management and treatment planning for all solid and 
+                hematologic malignancies with expertise in personalized cancer therapies.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   size="lg"
-                  onClick={() => window.open('https://wa.me/919876543210?text=Hi, I would like to schedule a consultation with Dr. Sindhu', '_blank')}
+                  onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to schedule a consultation with Dr. Sindhu', '_blank')}
                   className="bg-medical-green hover:bg-medical-teal transition-colors"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
@@ -118,7 +118,7 @@ const About = () => {
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold text-foreground">Senior Consultant</h3>
                   <p className="text-medical-blue font-semibold">Medical Oncology</p>
-                  <p className="text-muted-foreground">Apollo Cancer Centre, Hyderabad</p>
+                  <p className="text-muted-foreground">American Oncology Institute, Hyderabad</p>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@ const About = () => {
             <Button 
               size="lg" 
               variant="secondary"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi, I would like to know more about Dr. Sindhu approach to cancer treatment', '_blank')}
+              onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to know more about Dr. Sindhu approach to cancer treatment', '_blank')}
               className="bg-white text-medical-blue hover:bg-gray-100"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
