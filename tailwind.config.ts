@@ -29,6 +29,14 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				medical: {
+					blue: 'hsl(var(--medical-blue))',
+					teal: 'hsl(var(--medical-teal))',
+					green: 'hsl(var(--medical-green))',
+					accent: 'hsl(var(--medical-accent))',
+				},
+				'warm-gray': 'hsl(var(--warm-gray))',
+				'deep-blue': 'hsl(var(--deep-blue))',
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
