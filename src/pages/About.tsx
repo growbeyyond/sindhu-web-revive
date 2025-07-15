@@ -112,8 +112,12 @@ const About = () => {
             </div>
             <div className="lg:text-center animate-slide-in">
               <div className="bg-white rounded-2xl shadow-xl p-8 border">
-                <div className="w-48 h-48 bg-gradient-to-br from-medical-blue to-medical-teal rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-6xl font-bold text-white">SP</span>
+                <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/bc4bc671-1e58-492d-99fb-cc7773fbf5af.png" 
+                    alt="Dr. Sindhu Pericherla" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold text-foreground">Senior Consultant</h3>
