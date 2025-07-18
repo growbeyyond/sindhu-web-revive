@@ -88,7 +88,7 @@ const BlogPost = () => {
 
       <ul>
         <li>Whether your cancer type is suitable for genomic testing</li>
-        <li>Insurance coverage for testing and targeted therapies</li>
+        
         <li>Clinical trial opportunities</li>
         <li>Timeline for receiving test results</li>
         <li>Alternative treatment options if no targetable mutations are found</li>
@@ -102,7 +102,7 @@ const BlogPost = () => {
     category: "Treatment Updates",
     readTime: "8 min read",
     date: "March 15, 2024",
-    author: "Dr. Sindhu Peri Cherla",
+    author: "Dr. Sindhu Pericherla",
     image: "/blog-precision-medicine.jpg"
   };
 
@@ -248,7 +248,7 @@ const BlogPost = () => {
                       <div className="flex-1">
                         <h3 className="text-lg font-semibold text-foreground mb-2">About the Author</h3>
                         <p className="text-muted-foreground mb-3">
-                          Dr. Sindhu Peri Cherla is a renowned medical oncologist with over 15 years of experience 
+                          Dr. Sindhu Pericherla is a renowned medical oncologist with over 15 years of experience 
                           in cancer care. She specializes in precision medicine and has published extensively on 
                           personalized cancer treatment approaches.
                         </p>

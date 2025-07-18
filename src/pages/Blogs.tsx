@@ -27,7 +27,7 @@ const Blogs = () => {
       category: "Treatment Updates",
       readTime: "8 min read",
       date: "March 15, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-precision-medicine.jpg",
       featured: true
     },

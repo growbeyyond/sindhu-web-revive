@@ -41,10 +41,10 @@ export const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Meet Dr. Sindhu Peri Cherla
+                Meet Dr. Sindhu Pericherla
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Dr. Sindhu Peri Cherla is a distinguished Medical Oncologist with over 15 years of experience 
+                Dr. Sindhu Pericherla is a distinguished Medical Oncologist with over 15 years of experience
                 in providing comprehensive cancer care. She is known for her patient-centric approach, 
                 combining advanced medical expertise with compassionate care.
               </p>

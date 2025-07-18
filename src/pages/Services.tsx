@@ -20,7 +20,7 @@ const Services = () => {
       description: "Personalized chemotherapy protocols tailored to each patient's specific cancer type and overall health condition.",
       features: ["IV Chemotherapy", "Oral Medications", "Targeted Therapy", "24/7 Monitoring"],
       duration: "4-8 hours",
-      price: "Insurance Covered"
+      price: "Consultation Required"
     },
     {
       icon: Brain,
@@ -44,7 +44,7 @@ const Services = () => {
       description: "Genomic testing and personalized treatment plans based on tumor genetics and patient characteristics.",
       features: ["Genetic Testing", "Biomarker Analysis", "Personalized Protocols", "Treatment Monitoring"],
       duration: "1-2 weeks",
-      price: "Insurance Options"
+      price: "Consultation Required"
     },
     {
       icon: Users,

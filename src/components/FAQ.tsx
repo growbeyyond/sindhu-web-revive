@@ -19,12 +19,8 @@ const faqs = [
     answer: "You can schedule an appointment by calling +91 8639351695 or sending a WhatsApp message. We also accept walk-in consultations during clinic hours at American Oncology Institute, Hyderabad."
   },
   {
-    question: "Do you accept insurance?",
-    answer: "Yes, we accept most major insurance plans. Our team can help verify your coverage and assist with insurance authorization for treatments. Please bring your insurance card for your appointment."
-  },
-  {
     question: "What should I bring to my first appointment?",
-    answer: "Please bring all previous medical records, test results, imaging studies, biopsy reports, current medications list, and your insurance card. This helps us provide the most comprehensive care."
+    answer: "Please bring all previous medical records, test results, imaging studies, biopsy reports, and current medications list. This helps us provide the most comprehensive care."
   },
   {
     question: "Are second opinions available?",
