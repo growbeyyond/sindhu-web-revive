@@ -67,7 +67,7 @@ export const Hero = () => {
 
           {/* Doctor Profile Card */}
           <div className="relative animate-fade-in">
-            <div className="relative bg-white rounded-2xl shadow-2xl p-8 max-w-md mx-auto">
+            <div className="relative bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto">
               <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
                 <img 
                   src="/lovable-uploads/55af8020-0598-44f5-9249-222ea95ca8f7.png" 
@@ -76,13 +76,13 @@ export const Hero = () => {
                 />
               </div>
               <div className="text-center space-y-2">
-                <h3 className="text-2xl font-bold text-foreground">Dr. Sindhu Pericherla</h3>
+                <h3 className="text-2xl font-bold text-card-foreground">Dr. Sindhu Pericherla</h3>
                 <p className="text-primary font-semibold">Medical Oncologist</p>
                 <p className="text-muted-foreground">American Oncology Institute</p>
                 <div className="pt-4">
-                  <div className="inline-flex items-center px-4 py-2 bg-green-100 rounded-full">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                    <span className="text-sm text-green-700 font-medium">Available for Consultation</span>
+                  <div className="inline-flex items-center px-4 py-2 bg-accent rounded-full">
+                    <div className="w-2 h-2 bg-primary rounded-full mr-2"></div>
+                    <span className="text-sm text-primary font-medium">Available for Consultation</span>
                   </div>
                 </div>
               </div>

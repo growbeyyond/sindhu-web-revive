@@ -37,13 +37,13 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-muted">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Comprehensive Cancer Treatment & Care in Hyderabad
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Expert oncology care with personalized treatment strategies, advanced drug therapies, 
             and comprehensive support throughout your cancer treatment journey.
           </p>
@@ -55,15 +55,15 @@ export const Services = () => {
             return (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg">
                 <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                    <IconComponent className="h-8 w-8 text-blue-600 group-hover:text-white transition-colors duration-300" />
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary transition-colors duration-300">
+                    <IconComponent className="h-8 w-8 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
-                  <CardTitle className="text-xl font-semibold text-gray-900">
+                  <CardTitle className="text-xl font-semibold text-card-foreground">
                     {service.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600 text-center leading-relaxed">
+                  <CardDescription className="text-muted-foreground text-center leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardContent>

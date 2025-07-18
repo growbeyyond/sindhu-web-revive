@@ -111,7 +111,7 @@ const About = () => {
               </div>
             </div>
             <div className="lg:text-center animate-slide-in">
-              <div className="bg-white rounded-2xl shadow-xl p-8 border">
+              <div className="bg-card rounded-2xl shadow-xl p-8 border">
                 <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
                   <img 
                     src="/lovable-uploads/bc4bc671-1e58-492d-99fb-cc7773fbf5af.png" 
@@ -120,8 +120,8 @@ const About = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-foreground">Senior Consultant</h3>
-                  <p className="text-medical-blue font-semibold">Medical Oncology</p>
+                  <h3 className="text-2xl font-bold text-card-foreground">Senior Consultant</h3>
+                  <p className="text-primary font-semibold">Medical Oncology</p>
                   <p className="text-muted-foreground">American Oncology Institute, Hyderabad</p>
                 </div>
               </div>
