@@ -248,7 +248,7 @@ const BlogPost = () => {
                       <div className="flex-1">
                         <h3 className="text-lg font-semibold text-foreground mb-2">About the Author</h3>
                         <p className="text-muted-foreground mb-3">
-                          Dr. Sindhu Pericherla is a renowned medical oncologist with over 15 years of experience 
+                          Dr. Sindhu Pericherla is a renowned medical oncologist with over 8+ years of experience 
                           in cancer care. She specializes in precision medicine and has published extensively on 
                           personalized cancer treatment approaches.
                         </p>

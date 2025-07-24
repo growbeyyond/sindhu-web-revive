@@ -44,7 +44,7 @@ export const About = () => {
                 Meet Dr. Sindhu Pericherla
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Dr. Sindhu Pericherla is a distinguished Medical Oncologist with over 15 years of experience
+                Dr. Sindhu Pericherla is a distinguished Medical Oncologist with over 8+ years of experience
                 in providing comprehensive cancer care. She is known for her patient-centric approach, 
                 combining advanced medical expertise with compassionate care.
               </p>
@@ -78,7 +78,7 @@ export const About = () => {
             <img
               src="/lovable-uploads/313c1c91-2fcb-40fc-84c1-c5d04fdbaab5.png"
               alt="Dr. Sindhu Pericherla - Medical Oncologist"
-              className="rounded-xl shadow-lg w-full h-64 object-cover"
+              className="rounded-xl shadow-lg w-full h-64 object-cover object-top"
             />
             
             <div className="grid grid-cols-1 gap-6">

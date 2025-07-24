@@ -87,7 +87,7 @@ const About = () => {
                 <Badge variant="outline">Precision Medicine Expert</Badge>
               </div>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Dr. Sindhu is one of the leading Medical Oncologists in Hyderabad, with over seven years of experience 
+                Dr. Sindhu is one of the leading Medical Oncologists in Hyderabad, with over 8+ years of experience 
                 in oncology. She is an expert in diagnosis, management and treatment planning for all solid and 
                 hematologic malignancies with expertise in personalized cancer therapies.
               </p>
@@ -116,7 +116,7 @@ const About = () => {
                   <img 
                     src="/lovable-uploads/c1d7313f-430c-4b66-a4bf-b85bf817bf86.png" 
                     alt="Dr. Sindhu Pericherla - Medical Oncologist" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="space-y-2">

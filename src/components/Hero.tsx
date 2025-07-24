@@ -26,7 +26,7 @@ export const Hero = () => {
                 <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mx-auto mb-2">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-foreground">7+</div>
+                <div className="text-2xl font-bold text-foreground">8+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
@@ -72,7 +72,7 @@ export const Hero = () => {
                 <img 
                   src="/lovable-uploads/c1d7313f-430c-4b66-a4bf-b85bf817bf86.png" 
                   alt="Dr. Sindhu Pericherla - Medical Oncologist" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="text-center space-y-2">
