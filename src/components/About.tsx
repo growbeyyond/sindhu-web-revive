@@ -50,7 +50,7 @@ export const About = () => {
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Her areas of expertise include solid tumors, hematological malignancies, and personalized 
-                cancer therapy. Dr. Cherla is committed to staying at the forefront of oncological advances 
+                cancer therapy. Dr. Pericherla is committed to staying at the forefront of oncological advances 
                 to provide the best possible outcomes for her patients.
               </p>
             </div>
@@ -76,8 +76,8 @@ export const About = () => {
           {/* Achievements */}
           <div className="space-y-8">
             <img
-              src={`https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=400&fit=crop&crop=center`}
-              alt="Medical consultation"
+              src="/src/assets/dr-sindhu-photo.jpg"
+              alt="Dr. Sindhu Pericherla - Medical Oncologist"
               className="rounded-xl shadow-lg w-full h-64 object-cover"
             />
             
