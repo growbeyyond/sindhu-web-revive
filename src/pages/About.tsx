@@ -114,7 +114,7 @@ const About = () => {
               <div className="bg-card rounded-2xl shadow-xl p-8 border">
                 <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
                   <img 
-                    src="/src/assets/dr-sindhu-photo.jpg" 
+                    src="/lovable-uploads/c1d7313f-430c-4b66-a4bf-b85bf817bf86.png" 
                     alt="Dr. Sindhu Pericherla - Medical Oncologist" 
                     className="w-full h-full object-cover"
                   />

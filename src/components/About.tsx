@@ -76,7 +76,7 @@ export const About = () => {
           {/* Achievements */}
           <div className="space-y-8">
             <img
-              src="/src/assets/dr-sindhu-photo.jpg"
+              src="/lovable-uploads/313c1c91-2fcb-40fc-84c1-c5d04fdbaab5.png"
               alt="Dr. Sindhu Pericherla - Medical Oncologist"
               className="rounded-xl shadow-lg w-full h-64 object-cover"
             />
