@@ -36,7 +36,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 bg-medical-accent">
+    <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -53,7 +53,7 @@ export const Testimonials = () => {
             <Card key={index} className="bg-background shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Quote className="h-8 w-8 text-medical-blue mr-3 opacity-60" />
+                  <Quote className="h-8 w-8 text-primary mr-3 opacity-60" />
                   <div className="flex">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
@@ -67,7 +67,7 @@ export const Testimonials = () => {
                 
                 <div className="border-t pt-4">
                   <p className="font-semibold text-foreground">{testimonial.name}</p>
-                  <p className="text-sm text-medical-blue">{testimonial.role}</p>
+                  <p className="text-sm text-primary">{testimonial.role}</p>
                 </div>
               </CardContent>
             </Card>

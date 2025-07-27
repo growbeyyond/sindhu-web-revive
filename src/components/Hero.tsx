@@ -4,7 +4,7 @@ import { ArrowRight, Award, Users, Calendar } from 'lucide-react';
 
 export const Hero = () => {
   return (
-    <section id="home" className="pt-16 bg-gradient-to-br from-medical-accent to-background min-h-screen flex items-center">
+    <section id="home" className="pt-16 bg-background min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -58,7 +58,7 @@ export const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-primary text-primary hover:bg-primary/10 px-8 py-3"
+                className="border-foreground text-foreground hover:bg-foreground hover:text-background px-8 py-3"
               >
                 Learn More
               </Button>

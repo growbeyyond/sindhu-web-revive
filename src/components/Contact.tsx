@@ -7,7 +7,7 @@ import { MapPin, Phone, Mail, Clock, Calendar } from 'lucide-react';
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-medical-accent to-background">
+    <section id="contact" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -30,7 +30,7 @@ export const Contact = () => {
                 <CardTitle className="text-lg">Visit Our Clinic</CardTitle>
               </CardHeader>
                <CardContent className="text-center">
-                <div className="text-gray-600">
+                <div className="text-muted-foreground">
                   American Oncology Institute<br />
                   Near Hi-Tech City<br />
                   Hyderabad, Telangana 500081
@@ -46,8 +46,8 @@ export const Contact = () => {
                 <CardTitle className="text-lg">Call Us</CardTitle>
               </CardHeader>
                <CardContent className="text-center">
-                <div className="text-gray-600">
-                  <div className="font-semibold text-gray-900">+91 8639351695</div>
+                <div className="text-muted-foreground">
+                  <div className="font-semibold text-foreground">+91 8639351695</div>
                   <div className="text-sm">For appointments & consultations</div>
                 </div>
               </CardContent>
@@ -61,7 +61,7 @@ export const Contact = () => {
                 <CardTitle className="text-lg">Consultation Hours</CardTitle>
               </CardHeader>
                <CardContent className="text-center">
-                <div className="text-gray-600">
+                <div className="text-muted-foreground">
                   <div>Mon - Sat: 10:00 AM - 5:00 PM</div>
                   <div>Sunday: By Appointment</div>
                   <div className="text-xs text-primary mt-2">Emergency consultations available</div>
@@ -83,7 +83,7 @@ export const Contact = () => {
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-foreground mb-2">
                         First Name *
                       </label>
                       <Input 
@@ -93,7 +93,7 @@ export const Contact = () => {
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-foreground mb-2">
                         Last Name *
                       </label>
                       <Input 
@@ -105,7 +105,7 @@ export const Contact = () => {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-foreground mb-2">
                       Email Address *
                     </label>
                     <Input 
@@ -116,7 +116,7 @@ export const Contact = () => {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-foreground mb-2">
                       Phone Number *
                     </label>
                     <Input 
@@ -127,7 +127,7 @@ export const Contact = () => {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-foreground mb-2">
                       Preferred Consultation Type
                     </label>
                     <select className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
@@ -138,7 +138,7 @@ export const Contact = () => {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-foreground mb-2">
                       Message
                     </label>
                     <Textarea 

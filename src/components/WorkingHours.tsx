@@ -33,7 +33,7 @@ export const WorkingHours = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-background via-accent/20 to-background">
+    <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 animate-fade-in">
@@ -148,7 +148,7 @@ export const WorkingHours = () => {
           </div>
         </div>
 
-        <div className="text-center bg-medical-accent rounded-lg p-8">
+        <div className="text-center bg-card rounded-lg p-8">
           <h3 className="text-2xl font-semibold text-foreground mb-4">Time's not flexible?</h3>
           <p className="text-muted-foreground mb-6">
             We understand that cancer doesn't follow a schedule. Contact us for emergency consultations 
@@ -158,7 +158,7 @@ export const WorkingHours = () => {
             <Button 
               size="lg"
               onClick={() => window.open('https://wa.me/918639351695?text=Hi, I need a flexible appointment time with Dr. Sindhu', '_blank')}
-              className="bg-medical-green hover:bg-medical-teal transition-colors"
+              className="bg-primary hover:bg-primary/90 transition-colors"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               Make an Appointment
@@ -166,7 +166,7 @@ export const WorkingHours = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-medical-blue text-medical-blue hover:bg-medical-blue hover:text-white"
+              className="border-foreground text-foreground hover:bg-foreground hover:text-background"
             >
               <Calendar className="mr-2 h-5 w-5" />
               Emergency Contact
