@@ -116,7 +116,7 @@ const About = () => {
                   <img 
                     src="/lovable-uploads/c1d7313f-430c-4b66-a4bf-b85bf817bf86.png" 
                     alt="Dr. Sindhu Pericherla - Medical Oncologist" 
-                    className="w-full h-full object-cover object-[center_20%]"
+                    className="w-full h-full object-cover object-[center_40%]"
                   />
                 </div>
                 <div className="space-y-2">

@@ -78,7 +78,7 @@ export const About = () => {
             <img
               src="/lovable-uploads/313c1c91-2fcb-40fc-84c1-c5d04fdbaab5.png"
               alt="Dr. Sindhu Pericherla - Medical Oncologist"
-              className="rounded-xl shadow-lg w-full h-64 object-cover object-[center_20%]"
+              className="rounded-xl shadow-lg w-full h-64 object-cover object-[center_40%]"
             />
             
             <div className="grid grid-cols-1 gap-6">
