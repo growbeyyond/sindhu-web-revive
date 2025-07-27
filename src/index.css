@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 274 25% 88%;
-    --foreground: 274 60% 15%;
+    --background: 274 45% 25%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 274 60% 15%;
+    --card: 274 40% 30%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 274 60% 15%;
+    --popover: 274 40% 30%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 274 49% 30%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 274 60% 70%;
+    --primary-foreground: 274 45% 15%;
     
-    --medical-blue: 274 49% 30%;
-    --medical-teal: 274 35% 40%;
-    --medical-green: 274 25% 50%;
-    --medical-accent: 274 30% 92%;
-    --warm-gray: 274 20% 90%;
+    --medical-blue: 274 60% 70%;
+    --medical-teal: 274 50% 60%;
+    --medical-green: 274 40% 50%;
+    --medical-accent: 274 50% 35%;
+    --warm-gray: 274 30% 40%;
     --deep-blue: 274 60% 15%;
 
-    --secondary: 274 30% 92%;
-    --secondary-foreground: 274 60% 15%;
+    --secondary: 274 50% 35%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 274 20% 88%;
-    --muted-foreground: 274 25% 40%;
+    --muted: 274 40% 40%;
+    --muted-foreground: 0 0% 80%;
 
-    --accent: 274 30% 92%;
-    --accent-foreground: 274 60% 15%;
+    --accent: 274 50% 35%;
+    --accent-foreground: 0 0% 95%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 274 20% 85%;
-    --input: 274 20% 85%;
-    --ring: 274 49% 30%;
+    --border: 274 30% 45%;
+    --input: 274 30% 45%;
+    --ring: 274 60% 70%;
 
     --radius: 0.5rem;
 
