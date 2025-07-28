@@ -72,7 +72,7 @@ const Services = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-medical-accent to-background">
+      <section className="pt-24 pb-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -85,7 +85,7 @@ const Services = () => {
             <Button 
               size="lg" 
               onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to know more about your cancer care services', '_blank')}
-              className="bg-medical-green hover:bg-medical-teal transition-colors"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               Schedule Consultation
@@ -102,8 +102,8 @@ const Services = () => {
               <Card key={index} className="hover:shadow-lg transition-shadow animate-fade-in border-0 shadow-md">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className="p-3 bg-medical-accent rounded-lg">
-                      <service.icon className="h-6 w-6 text-medical-blue" />
+                    <div className="p-3 bg-primary/10 rounded-lg">
+                      <service.icon className="h-6 w-6 text-primary" />
                     </div>
                     <div>
                       <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
@@ -128,7 +128,7 @@ const Services = () => {
                     <ul className="space-y-1">
                       {service.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="text-sm text-muted-foreground flex items-center">
-                          <div className="w-1.5 h-1.5 bg-medical-blue rounded-full mr-2"></div>
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2"></div>
                           {feature}
                         </li>
                       ))}
@@ -142,7 +142,7 @@ const Services = () => {
       </section>
 
       {/* Specializations */}
-      <section className="py-16 bg-medical-accent">
+      <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Cancer Specializations</h2>
@@ -170,8 +170,8 @@ const Services = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-medical-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8 text-medical-blue" />
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">Expert Care</h3>
               <p className="text-muted-foreground">
@@ -179,8 +179,8 @@ const Services = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-medical-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                <Microscope className="h-8 w-8 text-medical-blue" />
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Microscope className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">Advanced Technology</h3>
               <p className="text-muted-foreground">
@@ -188,8 +188,8 @@ const Services = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-medical-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-8 w-8 text-medical-blue" />
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Heart className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">Compassionate Care</h3>
               <p className="text-muted-foreground">
@@ -201,12 +201,12 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-medical-blue to-medical-teal">
+      <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-primary-foreground mb-4">
             Ready to Start Your Treatment Journey?
           </h2>
-          <p className="text-xl text-white/90 mb-8">
+          <p className="text-xl text-primary-foreground/90 mb-8">
             Book your consultation today and take the first step towards recovery
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -214,7 +214,7 @@ const Services = () => {
               size="lg" 
               variant="secondary"
               onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book an appointment for cancer consultation', '_blank')}
-              className="bg-white text-medical-blue hover:bg-gray-100"
+              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               WhatsApp Consultation
@@ -222,7 +222,7 @@ const Services = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-medical-blue"
+              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
             >
               Call +91 8639351695
             </Button>

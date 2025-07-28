@@ -74,7 +74,7 @@ Message: ${formData.message}
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-medical-accent to-background">
+      <section className="pt-24 pb-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -88,7 +88,7 @@ Message: ${formData.message}
               <Button 
                 size="lg"
                 onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book an urgent consultation', '_blank')}
-                className="bg-medical-green hover:bg-medical-teal transition-colors"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Quick WhatsApp
@@ -96,7 +96,7 @@ Message: ${formData.message}
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-medical-blue text-medical-blue hover:bg-medical-blue hover:text-white"
+                className="border-foreground text-foreground hover:bg-foreground hover:text-background"
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now
@@ -183,7 +183,7 @@ Message: ${formData.message}
 
                     <Button 
                       type="submit" 
-                      className="w-full bg-medical-blue hover:bg-medical-teal transition-colors"
+                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
                       size="lg"
                     >
                       <MessageCircle className="mr-2 h-5 w-5" />
@@ -251,7 +251,7 @@ Message: ${formData.message}
       </section>
 
       {/* Clinic Locations */}
-      <section className="py-16 bg-medical-accent">
+      <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Clinic Locations</h2>
@@ -333,7 +333,7 @@ Message: ${formData.message}
               </Button>
               <Button 
                 onClick={() => window.open('https://wa.me/918639351695?text=Hi, I need directions to your clinic', '_blank')}
-                className="bg-medical-green hover:bg-medical-teal"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
               >
                 <Car className="mr-2 h-4 w-4" />
                 Get Directions via WhatsApp

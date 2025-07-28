@@ -74,7 +74,7 @@ const About = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-medical-accent to-background">
+      <section className="pt-24 pb-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
@@ -95,7 +95,7 @@ const About = () => {
                 <Button 
                   size="lg"
                   onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to schedule a consultation with Dr. Sindhu', '_blank')}
-                  className="bg-medical-green hover:bg-medical-teal transition-colors"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Book Consultation
@@ -103,7 +103,7 @@ const About = () => {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  className="border-medical-blue text-medical-blue hover:bg-medical-blue hover:text-white"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 >
                   <Calendar className="mr-2 h-5 w-5" />
                   View Availability
@@ -144,8 +144,8 @@ const About = () => {
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-3">
                   <div className="flex items-center space-x-3">
-                    <div className="p-2 bg-medical-accent rounded-lg">
-                      <GraduationCap className="h-5 w-5 text-medical-blue" />
+                    <div className="p-2 bg-primary/10 rounded-lg">
+                      <GraduationCap className="h-5 w-5 text-primary" />
                     </div>
                     <div>
                       <CardTitle className="text-lg">{qual.degree}</CardTitle>
@@ -154,7 +154,7 @@ const About = () => {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="font-semibold text-medical-blue mb-2">{qual.institution}</p>
+                  <p className="font-semibold text-primary mb-2">{qual.institution}</p>
                   <CardDescription>{qual.description}</CardDescription>
                 </CardContent>
               </Card>
@@ -164,7 +164,7 @@ const About = () => {
       </section>
 
       {/* Experience & Achievements */}
-      <section className="py-16 bg-medical-accent">
+      <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
@@ -172,8 +172,8 @@ const About = () => {
               <div className="space-y-4">
                 {achievements.map((achievement, index) => (
                   <div key={index} className="flex items-start space-x-3">
-                    <div className="p-1 bg-medical-green rounded-full mt-1">
-                      <Award className="h-4 w-4 text-white" />
+                    <div className="p-1 bg-primary rounded-full mt-1">
+                      <Award className="h-4 w-4 text-primary-foreground" />
                     </div>
                     <p className="text-foreground">{achievement}</p>
                   </div>
@@ -209,13 +209,13 @@ const About = () => {
             {affiliations.map((affiliation, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-medical-accent rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Building className="h-6 w-6 text-medical-blue" />
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Building className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle className="text-lg">{affiliation.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="font-semibold text-medical-blue mb-2">{affiliation.role}</p>
+                  <p className="font-semibold text-primary mb-2">{affiliation.role}</p>
                   <CardDescription>{affiliation.period}</CardDescription>
                 </CardContent>
               </Card>
@@ -225,13 +225,13 @@ const About = () => {
       </section>
 
       {/* Philosophy */}
-      <section className="py-16 bg-gradient-to-r from-medical-blue to-medical-teal">
+      <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-            <Heart className="h-8 w-8 text-medical-blue" />
+          <div className="w-16 h-16 bg-primary-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+            <Heart className="h-8 w-8 text-primary" />
           </div>
-          <h2 className="text-3xl font-bold text-white mb-6">My Philosophy</h2>
-          <p className="text-xl text-white/90 leading-relaxed mb-8">
+          <h2 className="text-3xl font-bold text-primary-foreground mb-6">My Philosophy</h2>
+          <p className="text-xl text-primary-foreground/90 leading-relaxed mb-8">
             "Every patient is unique, and their treatment should be too. I believe in combining 
             cutting-edge medical science with compassionate care to provide hope and healing. 
             My commitment is not just to treat cancer, but to support the whole person through 
@@ -242,7 +242,7 @@ const About = () => {
               size="lg" 
               variant="secondary"
               onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to know more about Dr. Sindhu approach to cancer treatment', '_blank')}
-              className="bg-white text-medical-blue hover:bg-gray-100"
+              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               Discuss Your Case
@@ -250,7 +250,7 @@ const About = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-medical-blue"
+              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
             >
               <BookOpen className="mr-2 h-5 w-5" />
               View Publications
