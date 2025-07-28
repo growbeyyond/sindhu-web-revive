@@ -200,27 +200,27 @@ Message: ${formData.message}
               <Card className="shadow-lg border-0">
                 <CardHeader>
                   <CardTitle className="text-xl text-foreground flex items-center">
-                    <Phone className="mr-2 h-5 w-5 text-medical-blue" />
+                    <Phone className="mr-2 h-5 w-5 text-primary" />
                     Quick Contact
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center space-x-3">
-                    <Phone className="h-5 w-5 text-medical-green" />
+                    <Phone className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold text-foreground">Primary Number</p>
                       <p className="text-muted-foreground">+91 8639351695</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Mail className="h-5 w-5 text-medical-blue" />
+                    <Mail className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
                       <p className="text-muted-foreground">drpsindhu.onco@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <MessageCircle className="h-5 w-5 text-medical-green" />
+                    <MessageCircle className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold text-foreground">WhatsApp</p>
                       <p className="text-muted-foreground">+91 8639351695</p>
@@ -232,7 +232,7 @@ Message: ${formData.message}
               <Card className="shadow-lg border-0">
                 <CardHeader>
                   <CardTitle className="text-xl text-foreground flex items-center">
-                    <Clock className="mr-2 h-5 w-5 text-medical-blue" />
+                    <Clock className="mr-2 h-5 w-5 text-primary" />
                     Emergency Contact
                   </CardTitle>
                 </CardHeader>
@@ -269,8 +269,8 @@ Message: ${formData.message}
                     <CardTitle className="text-lg text-foreground">{clinic.name}</CardTitle>
                     <span className={`px-2 py-1 rounded-full text-xs font-semibold ${
                       clinic.type === 'Primary Clinic' 
-                        ? 'bg-medical-green text-white' 
-                        : 'bg-medical-accent text-medical-blue'
+                        ? 'bg-primary text-primary-foreground' 
+                        : 'bg-accent text-accent-foreground'
                     }`}>
                       {clinic.type}
                     </span>
@@ -278,17 +278,17 @@ Message: ${formData.message}
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <MapPin className="h-5 w-5 text-medical-blue mt-0.5" />
+                    <MapPin className="h-5 w-5 text-primary mt-0.5" />
                     <p className="text-sm text-muted-foreground">{clinic.address}</p>
                   </div>
                   
                   <div className="flex items-center space-x-3">
-                    <Phone className="h-4 w-4 text-medical-green" />
+                    <Phone className="h-4 w-4 text-primary" />
                     <p className="text-sm text-foreground">{clinic.phone}</p>
                   </div>
                   
                   <div className="flex items-center space-x-3">
-                    <Clock className="h-4 w-4 text-medical-blue" />
+                    <Clock className="h-4 w-4 text-primary" />
                     <p className="text-sm text-muted-foreground">{clinic.timings}</p>
                   </div>
                   
@@ -319,7 +319,7 @@ Message: ${formData.message}
           </div>
           
           <div className="bg-warm-gray rounded-lg p-8 text-center">
-            <Building className="h-16 w-16 text-medical-blue mx-auto mb-4" />
+            <Building className="h-16 w-16 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-foreground mb-2">Interactive Map Coming Soon</h3>
             <p className="text-muted-foreground mb-6">
               We're working on integrating an interactive map to help you find our locations easily

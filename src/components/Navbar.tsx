@@ -19,7 +19,7 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <img src="/src/assets/dr-sindhu-logo.png" alt="Dr. Sindhu Pericherla" className="h-10 w-10 mr-3" />
-            <Link to="/" className="text-xl font-bold text-medical-blue hover:text-medical-teal transition-colors">
+            <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
               Dr. Sindhu Pericherla
             </Link>
           </div>
@@ -31,8 +31,8 @@ export const Navbar = () => {
                 to="/" 
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive('/') 
-                    ? 'text-medical-blue border-b-2 border-medical-blue' 
-                    : 'text-foreground hover:text-medical-blue'
+                    ? 'text-primary border-b-2 border-primary' 
+                    : 'text-foreground hover:text-primary'
                 }`}
               >
                 Home
@@ -41,8 +41,8 @@ export const Navbar = () => {
                 to="/services" 
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive('/services') 
-                    ? 'text-medical-blue border-b-2 border-medical-blue' 
-                    : 'text-foreground hover:text-medical-blue'
+                    ? 'text-primary border-b-2 border-primary' 
+                    : 'text-foreground hover:text-primary'
                 }`}
               >
                 Services
@@ -51,8 +51,8 @@ export const Navbar = () => {
                 to="/about" 
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive('/about') 
-                    ? 'text-medical-blue border-b-2 border-medical-blue' 
-                    : 'text-foreground hover:text-medical-blue'
+                    ? 'text-primary border-b-2 border-primary' 
+                    : 'text-foreground hover:text-primary'
                 }`}
               >
                 About
@@ -61,8 +61,8 @@ export const Navbar = () => {
                 to="/blogs" 
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive('/blogs') 
-                    ? 'text-medical-blue border-b-2 border-medical-blue' 
-                    : 'text-foreground hover:text-medical-blue'
+                    ? 'text-primary border-b-2 border-primary' 
+                    : 'text-foreground hover:text-primary'
                 }`}
               >
                 Blog
@@ -71,8 +71,8 @@ export const Navbar = () => {
                 to="/contact" 
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive('/contact') 
-                    ? 'text-medical-blue border-b-2 border-medical-blue' 
-                    : 'text-foreground hover:text-medical-blue'
+                    ? 'text-primary border-b-2 border-primary' 
+                    : 'text-foreground hover:text-primary'
                 }`}
               >
                 Contact
@@ -88,7 +88,7 @@ export const Navbar = () => {
             </div>
             <Button 
               onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book an appointment with Dr. Sindhu Pericherla', '_blank')}
-              className="bg-medical-green hover:bg-medical-teal transition-colors"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               <MessageCircle className="h-4 w-4 mr-2" />
               WhatsApp
@@ -114,7 +114,7 @@ export const Navbar = () => {
             <Link 
               to="/" 
               className={`block px-3 py-2 text-base font-medium transition-colors ${
-                isActive('/') ? 'text-medical-blue bg-medical-accent' : 'text-foreground hover:text-medical-blue'
+                isActive('/') ? 'text-primary bg-accent' : 'text-foreground hover:text-primary'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -123,7 +123,7 @@ export const Navbar = () => {
             <Link 
               to="/services" 
               className={`block px-3 py-2 text-base font-medium transition-colors ${
-                isActive('/services') ? 'text-medical-blue bg-medical-accent' : 'text-foreground hover:text-medical-blue'
+                isActive('/services') ? 'text-primary bg-accent' : 'text-foreground hover:text-primary'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -132,7 +132,7 @@ export const Navbar = () => {
             <Link 
               to="/about" 
               className={`block px-3 py-2 text-base font-medium transition-colors ${
-                isActive('/about') ? 'text-medical-blue bg-medical-accent' : 'text-foreground hover:text-medical-blue'
+                isActive('/about') ? 'text-primary bg-accent' : 'text-foreground hover:text-primary'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -141,7 +141,7 @@ export const Navbar = () => {
             <Link 
               to="/blogs" 
               className={`block px-3 py-2 text-base font-medium transition-colors ${
-                isActive('/blogs') ? 'text-medical-blue bg-medical-accent' : 'text-foreground hover:text-medical-blue'
+                isActive('/blogs') ? 'text-primary bg-accent' : 'text-foreground hover:text-primary'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -150,7 +150,7 @@ export const Navbar = () => {
             <Link 
               to="/contact" 
               className={`block px-3 py-2 text-base font-medium transition-colors ${
-                isActive('/contact') ? 'text-medical-blue bg-medical-accent' : 'text-foreground hover:text-medical-blue'
+                isActive('/contact') ? 'text-primary bg-accent' : 'text-foreground hover:text-primary'
               }`}
               onClick={() => setIsOpen(false)}
             >
@@ -162,7 +162,7 @@ export const Navbar = () => {
                   window.open('https://wa.me/918639351695?text=Hi, I would like to book an appointment with Dr. Sindhu Pericherla', '_blank');
                   setIsOpen(false);
                 }}
-                className="w-full bg-medical-green hover:bg-medical-teal transition-colors"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
               >
                 <MessageCircle className="h-4 w-4 mr-2" />
                 WhatsApp Appointment
