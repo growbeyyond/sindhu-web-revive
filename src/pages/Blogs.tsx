@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Calendar, Clock, Search, User, ArrowRight, MessageCircle, BookOpen, Heart, Microscope } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Footer } from "@/components/Footer";
 
 const Blogs = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -131,7 +132,7 @@ const Blogs = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-medical-accent to-background">
+      <section className="pt-24 pb-16 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -164,7 +165,7 @@ const Blogs = () => {
               <Badge 
                 key={index} 
                 variant={category.name === "All" ? "default" : "outline"}
-                className="cursor-pointer hover:bg-medical-blue hover:text-white transition-colors px-4 py-2"
+                className="cursor-pointer hover:bg-primary hover:text-white transition-colors px-4 py-2"
               >
                 {category.name} ({category.count})
               </Badge>
@@ -180,7 +181,7 @@ const Blogs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             {featuredPosts.map((post) => (
               <Card key={post.id} className="overflow-hidden hover:shadow-xl transition-shadow group">
-                <div className="aspect-video bg-gradient-to-br from-medical-blue to-medical-teal relative overflow-hidden">
+                <div className="aspect-video bg-gradient-to-br from-primary to-muted relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <Badge variant="secondary" className="mb-2">Featured</Badge>
@@ -207,7 +208,7 @@ const Blogs = () => {
                       </Badge>
                     </div>
                     <Link to={`/blog/${post.id}`}>
-                      <Button variant="ghost" size="sm" className="group-hover:text-medical-blue">
+                      <Button variant="ghost" size="sm" className="group-hover:text-primary">
                         Read More <ArrowRight className="ml-1 h-4 w-4" />
                       </Button>
                     </Link>
@@ -220,13 +221,13 @@ const Blogs = () => {
       </section>
 
       {/* All Blog Posts */}
-      <section className="py-16 bg-medical-accent">
+      <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-foreground mb-8">Latest Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post) => (
               <Card key={post.id} className="hover:shadow-lg transition-shadow group bg-background">
-                <div className="aspect-video bg-gradient-to-br from-warm-gray to-medical-accent relative overflow-hidden">
+                <div className="aspect-video bg-gradient-to-br from-muted to-background relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/10"></div>
                   <div className="absolute top-4 left-4">
                     <Badge variant="secondary" className="text-xs">
@@ -236,7 +237,7 @@ const Blogs = () => {
                   </div>
                 </div>
                 <CardHeader className="pb-3">
-                  <CardTitle className="text-lg group-hover:text-medical-blue transition-colors line-clamp-2">
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors line-clamp-2">
                     {post.title}
                   </CardTitle>
                   <div className="flex items-center space-x-4 text-sm text-muted-foreground">
@@ -260,7 +261,7 @@ const Blogs = () => {
                       <span>Dr. Sindhu</span>
                     </div>
                     <Link to={`/blog/${post.id}`}>
-                      <Button variant="ghost" size="sm" className="group-hover:text-medical-blue">
+                      <Button variant="ghost" size="sm" className="group-hover:text-primary">
                         Read <ArrowRight className="ml-1 h-4 w-4" />
                       </Button>
                     </Link>
@@ -273,7 +274,7 @@ const Blogs = () => {
       </section>
 
       {/* Newsletter Subscription */}
-      <section className="py-16 bg-gradient-to-r from-medical-blue to-medical-teal">
+      <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Stay Updated with Latest Cancer Care Insights
@@ -288,7 +289,7 @@ const Blogs = () => {
             />
             <Button 
               variant="secondary"
-              className="bg-white text-medical-blue hover:bg-gray-100"
+              className="bg-white text-primary hover:bg-gray-100"
             >
               Subscribe
             </Button>
@@ -312,7 +313,7 @@ const Blogs = () => {
             <Button 
               size="lg"
               onClick={() => window.open('https://wa.me/919876543210?text=Hi, I have questions about cancer care after reading your blog', '_blank')}
-              className="bg-medical-green hover:bg-medical-teal transition-colors"
+              className="bg-green-600 hover:bg-green-700 transition-colors"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               Ask Dr. Sindhu
@@ -320,7 +321,7 @@ const Blogs = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-medical-blue text-medical-blue hover:bg-medical-blue hover:text-white"
+              className="border-primary text-primary hover:bg-primary hover:text-white"
             >
               <Calendar className="mr-2 h-5 w-5" />
               Book Consultation
@@ -328,6 +329,7 @@ const Blogs = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { MapPin, Phone, Mail, Clock, MessageCircle, Car, Building, Calendar, Users } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { Footer } from "@/components/Footer";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -342,6 +343,7 @@ Message: ${formData.message}
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, User, Share2, BookOpen, MessageCircle, ArrowLeft, Heart } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
+import { Footer } from "@/components/Footer";
 
 const BlogPost = () => {
   const { id } = useParams();
@@ -150,7 +151,7 @@ const BlogPost = () => {
       {/* Hero Section */}
       <section className="pt-24 pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link to="/blogs" className="inline-flex items-center text-medical-blue hover:text-medical-teal mb-6">
+          <Link to="/blogs" className="inline-flex items-center text-primary hover:text-primary/80 mb-6">
             <ArrowLeft className="h-4 w-4 mr-2" />
             Back to Blog
           </Link>
@@ -185,7 +186,7 @@ const BlogPost = () => {
                 onClick={handleShare}
                 variant="outline" 
                 size="sm"
-                className="hover:bg-medical-blue hover:text-white"
+                className="hover:bg-primary hover:text-white"
               >
                 <Share2 className="h-4 w-4 mr-2" />
                 Share Article
@@ -194,7 +195,7 @@ const BlogPost = () => {
                 onClick={() => window.open('https://wa.me/919876543210?text=Hi, I read your article about precision medicine and have some questions', '_blank')}
                 variant="outline" 
                 size="sm"
-                className="hover:bg-medical-green hover:text-white"
+                className="hover:bg-green-600 hover:text-white"
               >
                 <MessageCircle className="h-4 w-4 mr-2" />
                 Discuss with Dr. Sindhu
@@ -207,7 +208,7 @@ const BlogPost = () => {
       {/* Featured Image */}
       <section className="pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="aspect-video bg-gradient-to-br from-medical-blue to-medical-teal rounded-lg relative overflow-hidden">
+          <div className="aspect-video bg-gradient-to-br from-primary to-muted rounded-lg relative overflow-hidden">
             <div className="absolute inset-0 bg-black/20"></div>
             <div className="absolute bottom-6 left-6 text-white">
               <p className="text-sm opacity-90">Featured Article</p>
@@ -240,9 +241,9 @@ const BlogPost = () => {
                   />
                   
                   {/* Author Bio */}
-                  <div className="mt-12 p-6 bg-medical-accent rounded-lg">
+                  <div className="mt-12 p-6 bg-muted/30 rounded-lg">
                     <div className="flex items-start space-x-4">
-                      <div className="w-16 h-16 bg-gradient-to-br from-medical-blue to-medical-teal rounded-full flex items-center justify-center">
+                      <div className="w-16 h-16 bg-gradient-to-br from-primary to-muted rounded-full flex items-center justify-center">
                         <span className="text-white font-bold text-xl">SP</span>
                       </div>
                       <div className="flex-1">
@@ -275,22 +276,22 @@ const BlogPost = () => {
                 <CardContent className="p-6">
                   <h3 className="font-semibold text-foreground mb-4">Table of Contents</h3>
                   <nav className="space-y-2 text-sm">
-                    <a href="#what-is-precision-medicine" className="block text-muted-foreground hover:text-medical-blue">
+                    <a href="#what-is-precision-medicine" className="block text-muted-foreground hover:text-primary">
                       What is Precision Medicine?
                     </a>
-                    <a href="#benefits" className="block text-muted-foreground hover:text-medical-blue">
+                    <a href="#benefits" className="block text-muted-foreground hover:text-primary">
                       Benefits of Precision Medicine
                     </a>
-                    <a href="#current-applications" className="block text-muted-foreground hover:text-medical-blue">
+                    <a href="#current-applications" className="block text-muted-foreground hover:text-primary">
                       Current Applications
                     </a>
-                    <a href="#testing-process" className="block text-muted-foreground hover:text-medical-blue">
+                    <a href="#testing-process" className="block text-muted-foreground hover:text-primary">
                       The Testing Process
                     </a>
-                    <a href="#challenges" className="block text-muted-foreground hover:text-medical-blue">
+                    <a href="#challenges" className="block text-muted-foreground hover:text-primary">
                       Challenges and Limitations
                     </a>
-                    <a href="#future-directions" className="block text-muted-foreground hover:text-medical-blue">
+                    <a href="#future-directions" className="block text-muted-foreground hover:text-primary">
                       Future Directions
                     </a>
                   </nav>
@@ -306,7 +307,7 @@ const BlogPost = () => {
                       <div key={post.id} className="border-b border-border pb-3 last:border-b-0">
                         <Link 
                           to={`/blog/${post.id}`} 
-                          className="text-sm font-medium text-foreground hover:text-medical-blue transition-colors line-clamp-2"
+                          className="text-sm font-medium text-foreground hover:text-primary transition-colors line-clamp-2"
                         >
                           {post.title}
                         </Link>
@@ -322,7 +323,7 @@ const BlogPost = () => {
               </Card>
 
               {/* CTA Card */}
-              <Card className="shadow-lg border-0 bg-gradient-to-br from-medical-blue to-medical-teal text-white">
+              <Card className="shadow-lg border-0 bg-primary text-white">
                 <CardContent className="p-6 text-center">
                   <Heart className="h-8 w-8 mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Need Expert Consultation?</h3>
@@ -332,7 +333,7 @@ const BlogPost = () => {
                   <Button 
                     variant="secondary" 
                     size="sm" 
-                    className="w-full bg-white text-medical-blue hover:bg-gray-100"
+                    className="w-full bg-white text-primary hover:bg-gray-100"
                     onClick={() => window.open('https://wa.me/919876543210?text=Hi, I need consultation about cancer treatment options', '_blank')}
                   >
                     Book Consultation
@@ -345,7 +346,7 @@ const BlogPost = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-medical-accent">
+      <section className="py-16 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-foreground mb-4">
             Found This Article Helpful?
@@ -356,7 +357,7 @@ const BlogPost = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               onClick={handleShare}
-              className="bg-medical-blue hover:bg-medical-teal transition-colors"
+              className="bg-primary hover:bg-primary/90 transition-colors"
             >
               <Share2 className="mr-2 h-5 w-5" />
               Share Article
@@ -364,7 +365,7 @@ const BlogPost = () => {
             <Button 
               variant="outline"
               onClick={() => window.open('https://wa.me/919876543210?text=Hi, I have questions about the precision medicine article', '_blank')}
-              className="border-medical-blue text-medical-blue hover:bg-medical-blue hover:text-white"
+              className="border-primary text-primary hover:bg-primary hover:text-white"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               Ask Questions
@@ -372,6 +373,7 @@ const BlogPost = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

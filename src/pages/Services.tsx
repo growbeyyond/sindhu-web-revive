@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, Stethoscope, Brain, Activity, Microscope, Users, Clock, Award, MessageCircle } from "lucide-react";
+import { Footer } from "@/components/Footer";
 
 const Services = () => {
   const services = [
@@ -229,6 +230,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

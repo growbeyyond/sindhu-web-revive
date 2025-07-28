@@ -8,6 +8,7 @@ import { WorkingHours } from "@/components/WorkingHours";
 import { Contact } from "@/components/Contact";
 import { FAQ } from "@/components/FAQ";
 import { CTA } from "@/components/CTA";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <FAQ />
       <Contact />
       <CTA />
+      <Footer />
     </div>
   );
 };

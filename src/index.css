@@ -20,10 +20,11 @@ All colors MUST be HSL.
     --primary: 262.1 83.3% 57.8%;
     --primary-foreground: 210 40% 98%;
     
+    /* Semantic color tokens for white theme */
     --medical-blue: 262.1 83.3% 57.8%;
-    --medical-teal: 262.1 73.3% 67.8%;
-    --medical-green: 262.1 63.3% 77.8%;
-    --medical-accent: 262.1 53.3% 47.8%;
+    --medical-teal: 185 80% 45%;
+    --medical-green: 120 60% 45%;
+    --medical-accent: 0 0% 98%;
     --warm-gray: 220 14.3% 95.9%;
     --deep-blue: 262.1 83.3% 27.8%;
 
