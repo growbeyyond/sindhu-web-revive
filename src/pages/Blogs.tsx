@@ -285,11 +285,11 @@ const Blogs = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
             <Input 
               placeholder="Enter your email" 
-              className="bg-white/10 border-white/20 text-white placeholder:text-white/70"
+              className="bg-background/10 border-background/20 text-primary-foreground placeholder:text-primary-foreground/70"
             />
             <Button 
               variant="secondary"
-              className="bg-white text-primary hover:bg-gray-100"
+              className="bg-background text-primary hover:bg-accent"
             >
               Subscribe
             </Button>

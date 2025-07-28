@@ -45,7 +45,7 @@ export const WorkingHours = () => {
           
           {/* Live Status */}
           <div className="inline-flex items-center space-x-2 bg-card rounded-full px-6 py-3 shadow-lg animate-scale-in">
-            <div className={`w-3 h-3 rounded-full ${isClinicOpen() ? 'bg-green-500 animate-pulse' : 'bg-red-500'}`}></div>
+            <div className={`w-3 h-3 rounded-full ${isClinicOpen() ? 'bg-green-500 animate-pulse' : 'bg-destructive'}`}></div>
             <span className="font-medium text-foreground">
               {isClinicOpen() ? 'Open Now' : 'Currently Closed'}
             </span>

@@ -237,10 +237,10 @@ Message: ${formData.message}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                    <p className="font-semibold text-red-800 mb-2">24/7 Emergency Helpline</p>
-                    <p className="text-red-700">+91 8639351695</p>
-                    <p className="text-sm text-red-600 mt-2">
+                  <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4">
+                    <p className="font-semibold text-destructive mb-2">24/7 Emergency Helpline</p>
+                    <p className="text-destructive">+91 8639351695</p>
+                    <p className="text-sm text-destructive/80 mt-2">
                       For urgent medical emergencies and critical patient care
                     </p>
                   </div>
@@ -318,7 +318,7 @@ Message: ${formData.message}
             </p>
           </div>
           
-          <div className="bg-warm-gray rounded-lg p-8 text-center">
+          <div className="bg-muted rounded-lg p-8 text-center">
             <Building className="h-16 w-16 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-foreground mb-2">Interactive Map Coming Soon</h3>
             <p className="text-muted-foreground mb-6">

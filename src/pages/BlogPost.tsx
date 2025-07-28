@@ -333,7 +333,7 @@ const BlogPost = () => {
                   <Button 
                     variant="secondary" 
                     size="sm" 
-                    className="w-full bg-white text-primary hover:bg-gray-100"
+                    className="w-full bg-background text-primary hover:bg-accent"
                     onClick={() => window.open('https://wa.me/919876543210?text=Hi, I need consultation about cancer treatment options', '_blank')}
                   >
                     Book Consultation
