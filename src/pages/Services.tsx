@@ -1,8 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Heart, Stethoscope, Brain, Activity, Microscope, Users, Clock, Award, MessageCircle } from "lucide-react";
+import { Heart, Stethoscope, Brain, Activity, Microscope, Users, Award, MessageCircle } from "lucide-react";
 import { Footer } from "@/components/Footer";
 
 const Services = () => {
@@ -11,49 +10,37 @@ const Services = () => {
       icon: Heart,
       title: "Cancer Diagnosis & Staging",
       description: "Comprehensive cancer diagnosis using advanced imaging and molecular techniques for accurate staging and treatment planning.",
-      features: ["PET/CT Scans", "Molecular Testing", "Biopsy Analysis", "TNM Staging"],
-      duration: "2-3 hours",
-      price: "Consultation Required"
+      features: ["PET/CT Scans", "Molecular Testing", "Biopsy Analysis", "TNM Staging"]
     },
     {
       icon: Stethoscope,
       title: "Chemotherapy Administration",
       description: "Personalized chemotherapy protocols tailored to each patient's specific cancer type and overall health condition.",
-      features: ["IV Chemotherapy", "Oral Medications", "Targeted Therapy", "24/7 Monitoring"],
-      duration: "4-8 hours",
-      price: "Consultation Required"
+      features: ["IV Chemotherapy", "Oral Medications", "Targeted Therapy", "24/7 Monitoring"]
     },
     {
       icon: Brain,
       title: "Radiation Therapy Planning",
       description: "Precision radiation therapy using state-of-the-art technology to target cancer cells while protecting healthy tissue.",
-      features: ["IMRT", "IGRT", "Stereotactic Surgery", "Brachytherapy"],
-      duration: "15-30 minutes",
-      price: "Package Available"
+      features: ["IMRT", "IGRT", "Stereotactic Surgery", "Brachytherapy"]
     },
     {
       icon: Activity,
       title: "Immunotherapy Treatment",
       description: "Cutting-edge immunotherapy treatments that harness the body's immune system to fight cancer.",
-      features: ["Checkpoint Inhibitors", "CAR-T Therapy", "Monoclonal Antibodies", "Cancer Vaccines"],
-      duration: "2-4 hours",
-      price: "Consultation Required"
+      features: ["Checkpoint Inhibitors", "CAR-T Therapy", "Monoclonal Antibodies", "Cancer Vaccines"]
     },
     {
       icon: Microscope,
       title: "Precision Medicine",
       description: "Genomic testing and personalized treatment plans based on tumor genetics and patient characteristics.",
-      features: ["Genetic Testing", "Biomarker Analysis", "Personalized Protocols", "Treatment Monitoring"],
-      duration: "1-2 weeks",
-      price: "Consultation Required"
+      features: ["Genetic Testing", "Biomarker Analysis", "Personalized Protocols", "Treatment Monitoring"]
     },
     {
       icon: Users,
       title: "Supportive Care",
       description: "Comprehensive supportive care including pain management, nutrition counseling, and psychological support.",
-      features: ["Pain Management", "Nutrition Therapy", "Counseling", "Palliative Care"],
-      duration: "Ongoing",
-      price: "Included in Treatment"
+      features: ["Pain Management", "Nutrition Therapy", "Counseling", "Palliative Care"]
     }
   ];
 
@@ -117,15 +104,6 @@ const Services = () => {
                     </div>
                     <div>
                       <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
-                      <div className="flex items-center space-x-2 mt-2">
-                        <Badge variant="outline" className="text-xs">
-                          <Clock className="h-3 w-3 mr-1" />
-                          {service.duration}
-                        </Badge>
-                        <Badge variant="secondary" className="text-xs">
-                          {service.price}
-                        </Badge>
-                      </div>
                     </div>
                   </div>
                 </CardHeader>

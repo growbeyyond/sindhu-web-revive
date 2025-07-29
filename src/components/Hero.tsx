@@ -70,7 +70,7 @@ export const Hero = () => {
             <div className="relative bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto">
               <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/83ab77b5-f626-4d87-b19f-875ef449abfb.png" 
+                  src="/lovable-uploads/2c419541-f5fc-40f7-96c4-19b41958355b.png" 
                   alt="Dr. Sindhu Pericherla - Medical Oncologist" 
                   className="w-full h-full object-cover object-center"
                 />
