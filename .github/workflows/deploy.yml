@@ -22,10 +22,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build Project
+      - name: Build the Website
         run: npm run build
 
-      - name: Deploy to FTP Server
+      - name: Deploy to Hostinger FTP
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
           server: ${{ secrets.HOST }}
