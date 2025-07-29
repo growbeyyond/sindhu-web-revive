@@ -18,7 +18,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <img src="/src/assets/dr-sindhu-logo.png" alt="Dr. Sindhu Pericherla" className="h-10 w-10 mr-3" />
+            <img src="/dr-sindhu-logo.png" alt="Dr. Sindhu Pericherla" className="h-10 w-10 mr-3" />
             <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
               Dr. Sindhu Pericherla
             </Link>

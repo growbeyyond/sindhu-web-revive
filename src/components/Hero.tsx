@@ -5,7 +5,7 @@ import { ArrowRight, Award, Users, Calendar } from 'lucide-react';
 export const Hero = () => {
   return (
     <section id="home" className="pt-16 bg-background min-h-screen flex items-center">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8 animate-fade-in">
@@ -70,9 +70,9 @@ export const Hero = () => {
             <div className="relative bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto">
               <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/c1d7313f-430c-4b66-a4bf-b85bf817bf86.png" 
+                  src="/lovable-uploads/83ab77b5-f626-4d87-b19f-875ef449abfb.png" 
                   alt="Dr. Sindhu Pericherla - Medical Oncologist" 
-                  className="w-full h-full object-cover object-[center_40%]"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="text-center space-y-2">

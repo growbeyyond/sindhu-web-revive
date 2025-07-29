@@ -58,14 +58,23 @@ const Services = () => {
   ];
 
   const specializations = [
+    "Brain Tumor",
+    "Head and Neck Cancer",
+    "Thyroid Cancer",
     "Breast Cancer",
-    "Lung Cancer", 
+    "Lung Cancer",
+    "Liver Cancer", 
+    "Gall Bladder Cancer",
+    "Pancreatic Cancer",
+    "Stomach Cancer",
     "Colorectal Cancer",
-    "Prostate Cancer",
-    "Gynecologic Cancers",
-    "Hematologic Malignancies",
-    "Head & Neck Cancers",
-    "Liver Cancer"
+    "Melanoma",
+    "Kidney Cancer",
+    "Bladder Cancer",
+    "Lymphoma",
+    "Multiple Myeloma",
+    "Sarcoma",
+    "Bone Cancer"
   ];
 
   return (
@@ -151,7 +160,7 @@ const Services = () => {
               Expert treatment for various types of cancer with specialized protocols
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {specializations.map((spec, index) => (
               <Card key={index} className="text-center hover:shadow-md transition-shadow bg-background">
                 <CardContent className="p-6">
