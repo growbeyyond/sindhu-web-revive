@@ -27,4 +27,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           local-dir: ./dist/
-          server-dir: ${{ secrets.REMOTEFOLDER }}
+          server-dir: ${{ secrets.REMOTEFOLDER }}/
