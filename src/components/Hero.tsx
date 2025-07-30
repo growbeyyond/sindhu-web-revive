@@ -1,10 +1,7 @@
-
 import { Button } from './ui/button';
 import { ArrowRight, Award, Users, Calendar } from 'lucide-react';
-
 export const Hero = () => {
-  return (
-    <section id="home" className="pt-16 bg-background min-h-screen flex items-center">
+  return <section id="home" className="pt-16 bg-background min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -47,19 +44,11 @@ export const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book a consultation with Dr. Sindhu Pericherla', '_blank')}
-                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
-              >
+              <Button size="lg" onClick={() => window.open('https://wa.me/918639351695?text=Hi, I would like to book a consultation with Dr. Sindhu Pericherla', '_blank')} className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3">
                 Book Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-foreground text-foreground hover:bg-foreground hover:text-background px-8 py-3"
-              >
+              <Button variant="outline" size="lg" className="border-foreground text-foreground hover:bg-foreground hover:text-background px-8 py-3">
                 Learn More
               </Button>
             </div>
@@ -67,13 +56,9 @@ export const Hero = () => {
 
           {/* Doctor Profile Card */}
           <div className="relative animate-fade-in">
-            <div className="relative bg-card rounded-2xl shadow-2xl p-8 max-w-md mx-auto">
+            <div className="relative bg-card shadow-2xl p-8 max-w-md mx-auto rounded-3xl px-[125px] py-[125px]">
               <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
-                <img 
-                  src="/lovable-uploads/2c419541-f5fc-40f7-96c4-19b41958355b.png" 
-                  alt="Dr. Sindhu Pericherla - Medical Oncologist" 
-                  className="w-full h-full object-cover object-center"
-                />
+                <img src="/lovable-uploads/2c419541-f5fc-40f7-96c4-19b41958355b.png" alt="Dr. Sindhu Pericherla - Medical Oncologist" className="w-full h-full object-cover object-center" />
               </div>
               <div className="text-center space-y-2">
                 <h3 className="text-2xl font-bold text-card-foreground">Dr. Sindhu Pericherla</h3>
@@ -90,6 +75,5 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
