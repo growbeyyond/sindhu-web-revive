@@ -39,7 +39,7 @@ const Blogs = () => {
       category: "Cancer Prevention",
       readTime: "6 min read",
       date: "March 10, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-screening.jpg",
       featured: true
     }
@@ -53,7 +53,7 @@ const Blogs = () => {
       category: "Treatment Updates",
       readTime: "10 min read",
       date: "March 8, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-immunotherapy.jpg"
     },
     {
@@ -63,7 +63,7 @@ const Blogs = () => {
       category: "Patient Stories",
       readTime: "5 min read",
       date: "March 5, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-patient-story.jpg"
     },
     {
@@ -73,7 +73,7 @@ const Blogs = () => {
       category: "Nutrition & Wellness",
       readTime: "12 min read",
       date: "March 1, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-nutrition.jpg"
     },
     {
@@ -83,7 +83,7 @@ const Blogs = () => {
       category: "Research & Innovation",
       readTime: "7 min read",
       date: "February 28, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-cart-therapy.jpg"
     },
     {
@@ -93,7 +93,7 @@ const Blogs = () => {
       category: "Treatment Updates",
       readTime: "9 min read",
       date: "February 25, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-side-effects.jpg"
     },
     {
@@ -103,7 +103,7 @@ const Blogs = () => {
       category: "Patient Stories",
       readTime: "6 min read",
       date: "February 22, 2024",
-      author: "Dr. Sindhu Peri Cherla",
+      author: "Dr. Sindhu Pericherla",
       image: "/blog-mental-health.jpg"
     }
   ];
@@ -312,7 +312,7 @@ const Blogs = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi, I have questions about cancer care after reading your blog', '_blank')}
+              onClick={() => window.open('https://wa.me/918639351695?text=Hi, I have questions about cancer care after reading your blog', '_blank')}
               className="bg-green-600 hover:bg-green-700 transition-colors"
             >
               <MessageCircle className="mr-2 h-5 w-5" />

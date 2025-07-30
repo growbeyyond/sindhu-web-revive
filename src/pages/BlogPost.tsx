@@ -192,7 +192,7 @@ const BlogPost = () => {
                 Share Article
               </Button>
               <Button 
-                onClick={() => window.open('https://wa.me/919876543210?text=Hi, I read your article about precision medicine and have some questions', '_blank')}
+                onClick={() => window.open('https://wa.me/918639351695?text=Hi, I read your article about precision medicine and have some questions', '_blank')}
                 variant="outline" 
                 size="sm"
                 className="hover:bg-green-600 hover:text-white"
@@ -256,7 +256,7 @@ const BlogPost = () => {
                         <Button 
                           variant="outline" 
                           size="sm"
-                          onClick={() => window.open('https://wa.me/919876543210?text=Hi Dr. Sindhu, I would like to know more about your expertise', '_blank')}
+                          onClick={() => window.open('https://wa.me/918639351695?text=Hi Dr. Sindhu, I would like to know more about your expertise', '_blank')}
                         >
                           <MessageCircle className="h-4 w-4 mr-2" />
                           Connect with Dr. Sindhu
@@ -334,7 +334,7 @@ const BlogPost = () => {
                     variant="secondary" 
                     size="sm" 
                     className="w-full bg-background text-primary hover:bg-accent"
-                    onClick={() => window.open('https://wa.me/919876543210?text=Hi, I need consultation about cancer treatment options', '_blank')}
+                    onClick={() => window.open('https://wa.me/918639351695?text=Hi, I need consultation about cancer treatment options', '_blank')}
                   >
                     Book Consultation
                   </Button>
@@ -364,7 +364,7 @@ const BlogPost = () => {
             </Button>
             <Button 
               variant="outline"
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi, I have questions about the precision medicine article', '_blank')}
+              onClick={() => window.open('https://wa.me/918639351695?text=Hi, I have questions about the precision medicine article', '_blank')}
               className="border-primary text-primary hover:bg-primary hover:text-white"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
