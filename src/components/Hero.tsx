@@ -57,7 +57,7 @@ export const Hero = () => {
           {/* Doctor Profile Card */}
           <div className="relative animate-fade-in">
             <div className="relative bg-card shadow-2xl p-8 max-w-lg mx-auto rounded-3xl">
-              <div className="w-72 h-72 rounded-xl mx-auto mb-6 overflow-hidden shadow-lg">
+              <div className="w-65 h-65 rounded-xl mx-auto mb-6 overflow-hidden shadow-lg">
                 <img src="/lovable-uploads/5c123972-0727-4289-a081-060a2e287033.png" alt="Dr. Sindhu Pericherla - Medical Oncologist" className="w-full h-full object-cover object-center" />
               </div>
               <div className="text-center space-y-2">
