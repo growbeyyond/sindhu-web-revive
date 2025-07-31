@@ -58,7 +58,7 @@ export const Hero = () => {
           <div className="relative animate-fade-in">
             <div className="relative bg-card shadow-2xl p-8 max-w-md mx-auto rounded-3xl px-[125px] py-[125px]">
               <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden">
-                <img src="/lovable-uploads/2c419541-f5fc-40f7-96c4-19b41958355b.png" alt="Dr. Sindhu Pericherla - Medical Oncologist" className="w-full h-full object-cover object-center" />
+                <img src="/dr-sindhu-hero.jpg" alt="Dr. Sindhu Pericherla - Medical Oncologist" className="w-full h-full object-cover object-center" />
               </div>
               <div className="text-center space-y-2">
                 <h3 className="text-2xl font-bold text-card-foreground">Dr. Sindhu Pericherla</h3>
