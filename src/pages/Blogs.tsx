@@ -27,7 +27,7 @@ const Blogs = () => {
       excerpt: "How genomic testing is revolutionizing personalized cancer care and improving patient outcomes through targeted therapies.",
       category: "Treatment Updates",
       readTime: "8 min read",
-      date: "March 15, 2024",
+      date: "July 31, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-precision-medicine.jpg",
       featured: true
@@ -38,7 +38,7 @@ const Blogs = () => {
       excerpt: "Comprehensive guide to cancer screening recommendations by age group and risk factors for early detection.",
       category: "Cancer Prevention",
       readTime: "6 min read",
-      date: "March 10, 2024",
+      date: "July 28, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-screening.jpg",
       featured: true
@@ -52,7 +52,7 @@ const Blogs = () => {
       excerpt: "Exploring the latest advances in immunotherapy and how it's changing cancer treatment paradigms.",
       category: "Treatment Updates",
       readTime: "10 min read",
-      date: "March 8, 2024",
+      date: "July 25, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-immunotherapy.jpg"
     },
@@ -62,7 +62,7 @@ const Blogs = () => {
       excerpt: "A patient's inspiring story of diagnosis, treatment, and recovery with insights into emotional and physical healing.",
       category: "Patient Stories",
       readTime: "5 min read",
-      date: "March 5, 2024",
+      date: "July 22, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-patient-story.jpg"
     },
@@ -72,7 +72,7 @@ const Blogs = () => {
       excerpt: "Evidence-based nutritional strategies to support your body during cancer treatment and recovery.",
       category: "Nutrition & Wellness",
       readTime: "12 min read",
-      date: "March 1, 2024",
+      date: "July 19, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-nutrition.jpg"
     },
@@ -82,7 +82,7 @@ const Blogs = () => {
       excerpt: "Latest developments in CAR-T cell therapy and its promising results in treating blood cancers.",
       category: "Research & Innovation",
       readTime: "7 min read",
-      date: "February 28, 2024",
+      date: "July 16, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-cart-therapy.jpg"
     },
@@ -92,7 +92,7 @@ const Blogs = () => {
       excerpt: "Practical strategies and medical approaches to minimize and manage common cancer treatment side effects.",
       category: "Treatment Updates",
       readTime: "9 min read",
-      date: "February 25, 2024",
+      date: "July 13, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-side-effects.jpg"
     },
@@ -102,7 +102,7 @@ const Blogs = () => {
       excerpt: "Understanding the psychological aspects of cancer treatment and the importance of mental health support.",
       category: "Patient Stories",
       readTime: "6 min read",
-      date: "February 22, 2024",
+      date: "July 10, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-mental-health.jpg"
     }
