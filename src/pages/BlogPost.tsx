@@ -208,7 +208,12 @@ const BlogPost = () => {
       {/* Featured Image */}
       <section className="pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="aspect-video bg-gradient-to-br from-primary to-muted rounded-lg relative overflow-hidden">
+          <div className="aspect-video relative overflow-hidden rounded-lg">
+            <img 
+              src={blogPost.image} 
+              alt={blogPost.title}
+              className="w-full h-full object-cover"
+            />
             <div className="absolute inset-0 bg-black/20"></div>
             <div className="absolute bottom-6 left-6 text-white">
               <p className="text-sm opacity-90">Featured Article</p>

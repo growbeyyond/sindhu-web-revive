@@ -181,7 +181,12 @@ const Blogs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             {featuredPosts.map((post) => (
               <Card key={post.id} className="overflow-hidden hover:shadow-xl transition-shadow group">
-                <div className="aspect-video bg-gradient-to-br from-primary to-muted relative overflow-hidden">
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src={post.image} 
+                    alt={post.title}
+                    className="w-full h-full object-cover"
+                  />
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <Badge variant="secondary" className="mb-2">Featured</Badge>
@@ -227,7 +232,12 @@ const Blogs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post) => (
               <Card key={post.id} className="hover:shadow-lg transition-shadow group bg-background">
-                <div className="aspect-video bg-gradient-to-br from-muted to-background relative overflow-hidden">
+                <div className="aspect-video relative overflow-hidden">
+                  <img 
+                    src={post.image} 
+                    alt={post.title}
+                    className="w-full h-full object-cover"
+                  />
                   <div className="absolute inset-0 bg-black/10"></div>
                   <div className="absolute top-4 left-4">
                     <Badge variant="secondary" className="text-xs">
