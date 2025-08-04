@@ -3,10 +3,9 @@ import { Button } from './ui/button';
 import { GraduationCap, Award, BookOpen, Users2 } from 'lucide-react';
 
 const qualifications = [
-  "MBBS - Andhra Medical College",
-  "MD (General Medicine) - NIMS, Hyderabad",
-  "DM (Medical Oncology) - AIIMS, New Delhi",
-  "Fellowship in Hematology - Tata Memorial Hospital"
+  "MBBS - Mamata Medical College, Telangana",
+  "MD (Internal Medicine) - Kasturba Medical College, Manipal, Karnataka",
+  "DM (Medical Oncology) - Sri Venkateswara Institute of Medical Sciences, Tirupati"
 ];
 
 const achievements = [

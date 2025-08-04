@@ -10,19 +10,16 @@ const About = () => {
     {
       degree: "MBBS",
       institution: "Mamata Medical College, Telangana",
-      year: "2014",
       description: "Bachelor of Medicine and Bachelor of Surgery"
     },
     {
       degree: "MD - Internal Medicine",
       institution: "Kasturba Medical College, Manipal, Karnataka",
-      year: "2018",
       description: "Specialization in Internal Medicine"
     },
     {
       degree: "DM - Medical Oncology",
       institution: "Sri Venkateswara Institute of Medical Sciences, Tirupati",
-      year: "2022",
       description: "Super-specialization in Medical Oncology and Cancer Research"
     }
   ];
@@ -150,7 +147,6 @@ const About = () => {
                     </div>
                     <div>
                       <CardTitle className="text-lg">{qual.degree}</CardTitle>
-                      <Badge variant="outline" className="text-xs">{qual.year}</Badge>
                     </div>
                   </div>
                 </CardHeader>
