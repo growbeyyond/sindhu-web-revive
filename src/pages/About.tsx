@@ -51,9 +51,9 @@ const About = () => {
       period: "Present"
     },
     {
-      name: "American Society of Clinical Oncology (ASCO)",
-      role: "Member",
-      period: "Present"
+      name: "Omega Hospitals",
+      role: "Medical Oncologist",
+      period: "Previously"
     },
     {
       name: "European Society of Medical Oncology (ESMO)",

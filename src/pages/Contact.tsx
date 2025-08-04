@@ -216,7 +216,7 @@ Message: ${formData.message}
                     <Mail className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <p className="text-muted-foreground">drpsindhu.onco@gmail.com</p>
+                      <p className="text-muted-foreground">drsindhupericharla@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
