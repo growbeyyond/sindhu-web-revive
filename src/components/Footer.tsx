@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="bg-card border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
           {/* Contact Info */}
           <div className="space-y-4">
@@ -15,8 +15,9 @@ export const Footer = () => {
                 <MapPin className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <div className="text-sm text-muted-foreground">
                   <p>Dr. Sindhu Pericherla</p>
-                  <p>Cancer Specialist Clinic</p>
-                  <p>123 Medical Center, City</p>
+                  <p>Medical Oncologist</p>
+                  <p>American Oncology Institute</p>
+                  <p>Hyderabad, Telangana</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -48,6 +49,22 @@ export const Footer = () => {
               </a>
               <a href="/contact" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
                 Contact
+              </a>
+            </div>
+          </div>
+
+          {/* Legal Links */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-foreground">Legal & Privacy</h3>
+            <div className="space-y-2">
+              <a href="/privacy" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
+                Privacy Policy
+              </a>
+              <a href="/terms" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
+                Terms of Service
+              </a>
+              <a href="/disclaimer" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
+                Medical Disclaimer
               </a>
             </div>
           </div>

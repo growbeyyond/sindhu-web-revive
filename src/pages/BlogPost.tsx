@@ -102,7 +102,7 @@ const BlogPost = () => {
     `,
     category: "Treatment Updates",
     readTime: "8 min read",
-    date: "July 31, 2025",
+    date: "July 15, 2025",
     author: "Dr. Sindhu Pericherla",
     image: "/blog-precision-medicine.jpg"
   };

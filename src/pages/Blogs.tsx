@@ -27,7 +27,7 @@ const Blogs = () => {
       excerpt: "How genomic testing is revolutionizing personalized cancer care and improving patient outcomes through targeted therapies.",
       category: "Treatment Updates",
       readTime: "8 min read",
-      date: "July 31, 2025",
+      date: "July 15, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-precision-medicine.jpg",
       featured: true
@@ -38,7 +38,7 @@ const Blogs = () => {
       excerpt: "Comprehensive guide to cancer screening recommendations by age group and risk factors for early detection.",
       category: "Cancer Prevention",
       readTime: "6 min read",
-      date: "July 28, 2025",
+      date: "July 10, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-screening.jpg",
       featured: true
@@ -52,7 +52,7 @@ const Blogs = () => {
       excerpt: "Exploring the latest advances in immunotherapy and how it's changing cancer treatment paradigms.",
       category: "Treatment Updates",
       readTime: "10 min read",
-      date: "July 25, 2025",
+      date: "June 30, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-immunotherapy.jpg"
     },
@@ -62,7 +62,7 @@ const Blogs = () => {
       excerpt: "A patient's inspiring story of diagnosis, treatment, and recovery with insights into emotional and physical healing.",
       category: "Patient Stories",
       readTime: "5 min read",
-      date: "July 22, 2025",
+      date: "June 25, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-patient-story.jpg"
     },
@@ -72,7 +72,7 @@ const Blogs = () => {
       excerpt: "Evidence-based nutritional strategies to support your body during cancer treatment and recovery.",
       category: "Nutrition & Wellness",
       readTime: "12 min read",
-      date: "July 19, 2025",
+      date: "June 20, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-nutrition.jpg"
     },
@@ -82,7 +82,7 @@ const Blogs = () => {
       excerpt: "Latest developments in CAR-T cell therapy and its promising results in treating blood cancers.",
       category: "Research & Innovation",
       readTime: "7 min read",
-      date: "July 16, 2025",
+      date: "June 15, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-cart-therapy.jpg"
     },
@@ -92,7 +92,7 @@ const Blogs = () => {
       excerpt: "Practical strategies and medical approaches to minimize and manage common cancer treatment side effects.",
       category: "Treatment Updates",
       readTime: "9 min read",
-      date: "July 13, 2025",
+      date: "May 30, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-side-effects.jpg"
     },
@@ -102,7 +102,7 @@ const Blogs = () => {
       excerpt: "Understanding the psychological aspects of cancer treatment and the importance of mental health support.",
       category: "Patient Stories",
       readTime: "6 min read",
-      date: "July 10, 2025",
+      date: "May 25, 2025",
       author: "Dr. Sindhu Pericherla",
       image: "/blog-mental-health.jpg"
     }
@@ -292,18 +292,22 @@ const Blogs = () => {
           <p className="text-xl text-white/90 mb-8">
             Get evidence-based articles and treatment updates delivered to your inbox
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <Input 
-              placeholder="Enter your email" 
-              className="bg-background/10 border-background/20 text-primary-foreground placeholder:text-primary-foreground/70"
-            />
-            <Button 
-              variant="secondary"
-              className="bg-background text-primary hover:bg-accent"
-            >
-              Subscribe
-            </Button>
-          </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+              <Input 
+                placeholder="Enter your email" 
+                className="bg-background/10 border-background/20 text-primary-foreground placeholder:text-primary-foreground/70"
+              />
+              <Button 
+                variant="secondary"
+                className="bg-background text-primary hover:bg-accent"
+                onClick={() => {
+                  // Simple newsletter subscription feedback
+                  alert("Thank you for subscribing! You'll receive our monthly health updates.");
+                }}
+              >
+                Subscribe
+              </Button>
+            </div>
           <p className="text-sm text-white/80 mt-4">
             No spam. Unsubscribe anytime. Monthly updates only.
           </p>
