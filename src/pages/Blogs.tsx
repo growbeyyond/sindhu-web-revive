@@ -12,12 +12,12 @@ const Blogs = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const categories = [
-    { name: "All", count: 24 },
-    { name: "Cancer Prevention", count: 8 },
-    { name: "Treatment Updates", count: 6 },
-    { name: "Patient Stories", count: 5 },
-    { name: "Research & Innovation", count: 3 },
-    { name: "Nutrition & Wellness", count: 2 }
+    { name: "All", count: 34 },
+    { name: "Cancer Prevention", count: 10 },
+    { name: "Treatment Updates", count: 8 },
+    { name: "Patient Stories", count: 7 },
+    { name: "Research & Innovation", count: 6 },
+    { name: "Nutrition & Wellness", count: 3 }
   ];
 
   const featuredPosts = [
@@ -46,6 +46,108 @@ const Blogs = () => {
   ];
 
   const blogPosts = [
+    // August 2025 - Latest Trending Topics
+    {
+      id: 9,
+      title: "AI in Cancer Diagnosis: How Machine Learning is Revolutionizing Early Detection",
+      excerpt: "Dr. Sindhu Pericherla explores how artificial intelligence is transforming cancer screening and improving diagnostic accuracy for better patient outcomes.",
+      category: "Research & Innovation",
+      readTime: "11 min read",
+      date: "August 31, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-ai-cancer-diagnosis.jpg"
+    },
+    {
+      id: 10,
+      title: "Cancer Survivorship Wellness: Thriving Beyond Treatment",
+      excerpt: "Dr. Sindhu Pericherla's comprehensive guide to post-treatment wellness, including physical rehabilitation, mental health, and lifestyle modifications for cancer survivors.",
+      category: "Patient Stories",
+      readTime: "9 min read",
+      date: "August 28, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-survivorship-wellness.jpg"
+    },
+    {
+      id: 11,
+      title: "Liquid Biopsy: The Future of Non-Invasive Cancer Detection",
+      excerpt: "Understanding how liquid biopsies are changing cancer monitoring and treatment decisions, as explained by Dr. Sindhu Pericherla's clinical experience.",
+      category: "Research & Innovation",
+      readTime: "8 min read",
+      date: "August 25, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-liquid-biopsy.jpg"
+    },
+    {
+      id: 12,
+      title: "Telemedicine in Oncology: Transforming Cancer Care Access",
+      excerpt: "Dr. Sindhu Pericherla discusses how virtual consultations are improving cancer care accessibility and patient convenience in modern healthcare.",
+      category: "Treatment Updates",
+      readTime: "7 min read",
+      date: "August 22, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-telemedicine-oncology.jpg"
+    },
+    {
+      id: 13,
+      title: "Personalized Cancer Vaccines: A New Era of Immunotherapy",
+      excerpt: "Exploring the groundbreaking field of personalized cancer vaccines and their potential in treating various cancer types, as reviewed by Dr. Sindhu Pericherla.",
+      category: "Research & Innovation",
+      readTime: "10 min read",
+      date: "August 19, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-cancer-vaccines.jpg"
+    },
+    {
+      id: 14,
+      title: "Family Support Systems in Cancer Care: Building a Strong Network",
+      excerpt: "Dr. Sindhu Pericherla's insights on how family involvement can significantly impact cancer treatment outcomes and patient quality of life.",
+      category: "Patient Stories",
+      readTime: "6 min read",
+      date: "August 16, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-family-support.jpg"
+    },
+    {
+      id: 15,
+      title: "Fertility Preservation in Cancer Patients: Options and Timing",
+      excerpt: "Understanding fertility preservation techniques before cancer treatment, with expert guidance from Dr. Sindhu Pericherla on available options and decision-making.",
+      category: "Treatment Updates",
+      readTime: "8 min read",
+      date: "August 13, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-fertility-preservation.jpg"
+    },
+    {
+      id: 16,
+      title: "Integrative Medicine in Cancer Care: Combining Traditional and Modern Approaches",
+      excerpt: "Dr. Sindhu Pericherla explores how complementary therapies can enhance conventional cancer treatment and improve patient well-being.",
+      category: "Nutrition & Wellness",
+      readTime: "9 min read",
+      date: "August 10, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-integrative-medicine.jpg"
+    },
+    {
+      id: 17,
+      title: "CRISPR Gene Therapy: Precision Cancer Treatment Revolution",
+      excerpt: "An in-depth look at CRISPR technology's role in cancer treatment, including current applications and future potential, reviewed by Dr. Sindhu Pericherla.",
+      category: "Research & Innovation",
+      readTime: "12 min read",
+      date: "August 31, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-gene-therapy.jpg"
+    },
+    {
+      id: 18,
+      title: "Precision Oncology: Tailoring Treatment to Your Genetic Profile",
+      excerpt: "Dr. Sindhu Pericherla explains how genetic testing and molecular profiling are personalizing cancer treatment for better outcomes.",
+      category: "Treatment Updates",
+      readTime: "10 min read",
+      date: "August 28, 2025",
+      author: "Dr. Sindhu Pericherla",
+      image: "/blog-precision-oncology.jpg"
+    },
+    // Previous posts from earlier months
     {
       id: 3,
       title: "Immunotherapy: Harnessing Your Body's Natural Defense",
